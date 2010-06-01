@@ -1,0 +1,52 @@
+/* Stylesheet for the 'GESAC Theme' Plone theme */
+
+body {
+    background-color: green;
+    padding-bottom: 0;
+}
+
+#visual-portal-wrapper {
+    margin: 0 auto 0 auto;
+    width: 881px;
+
+}
+
+#portal-top {
+    background-color: white;    
+}
+
+#portal-columns {
+    background-color: white;
+}
+
+#portal-footer {
+/*    background-color: white;*/
+/*    margin-bottom: 20px;*/
+}
+
+#footer {
+    width: 881px;
+    height: 35px;
+    margin: 0 auto;
+    background-color: #89CEDE;
+}
+
+#footer p {
+    float: left;
+    font-size: 2em;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+#footer ul {
+    float: right;
+    width: 150px;
+    margin: 0;
+    padding: 0;
+}
+
+#footer ul li {
+	display: inline;
+	float: left;
+    padding-right: 15px;
+}

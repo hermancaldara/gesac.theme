@@ -1,0 +1,2 @@
+recursive-include gesac *
+global-exclude *pyc

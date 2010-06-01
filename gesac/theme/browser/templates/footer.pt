@@ -1,0 +1,14 @@
+<div id="footer">
+    <p>Portal Gesac 2010 - Inclusão Digital</p>
+    <ul>
+        <li>
+            <img width="30" height="30" src="++resource++gesac.theme.images/twitter.png">
+        </li>
+        <li>
+            <img width="30" height="30" src="++resource++gesac.theme.images/facebook.png">
+        </li>
+        <li>
+            <img width="30" height="30" src="++resource++gesac.theme.images/orkut.png">
+        </li>
+    </ul>
+</div>
