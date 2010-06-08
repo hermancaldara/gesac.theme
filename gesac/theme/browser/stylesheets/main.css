@@ -1,39 +1,98 @@
 /* Stylesheet for the 'GESAC Theme' Plone theme */
 
 body {
-    background-color: green;
+    background-image: url(++resource++gesac.theme.images/fundo.gif);
     padding-bottom: 0;
 }
 
 #visual-portal-wrapper {
     margin: 0 auto 0 auto;
-    width: 881px;
-
+    width: 994px;
 }
 
 #portal-top {
-    background-color: white;    
+    background-color: white;
 }
+
+
+
+#divHeaderBrasil {
+	width:100%;
+	float:left;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+}
+
+#divHeaderBrasil ul {
+	width:100%;
+	float:left;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	background:url(++resource++gesac.theme.images/bgDivHeaderBrasil.gif) repeat-x;
+	border-bottom:4px solid #93ab93;
+}
+
+#divHeaderBrasil ul li {
+	display:inline;
+	float:left;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+}
+
+#divHeaderBrasil ul li.logo {
+	display:inline;
+	float:left;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	background:url(++resource++gesac.theme.images/imgDivHeaderBrasil.jpg) no-repeat;
+	width:700px;
+	height:35px;
+}
+
+#divHeaderBrasil ul li.brasil {
+	display:inline;
+	float:right;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	background:url(++resource++gesac.theme.images/imgBrasilPais.gif) no-repeat;
+	width:120px;
+	height:35px;
+}
+
+#divHeaderBrasil ul li img.presidencia{
+	float:left;
+	padding:0 0 0 44px;
+}
+
+#divHeaderBrasil ul li img {
+	vertical-align:middle;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+}
+
+#divHeaderBrasil ul li.liRight {
+	float:right;
+	background:#085424;
+}
+
+
+
+
 
 #portal-columns {
     background-color: white;
 }
 
-#portal-footer {
-/*    background-color: white;*/
-/*    margin-bottom: 20px;*/
-}
-
 #footer {
-    width: 881px;
+    width: 994px;
     height: 35px;
     margin: 0 auto;
-    background-color: #89CEDE;
+    background-color: #fff;
 }
 
 #footer p {
     float: left;
-    font-size: 2em;
+    font-size: 1.3em;
     font-weight: bold;
     padding-left: 10px;
 }
