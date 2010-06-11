@@ -35,6 +35,10 @@
 -->
   </order>
 
+  <hidden manager="plone.portalheader" skinname="GESAC Theme" based-on="Plone Default">
+    <viewlet name="plone.global_sections" />
+  </hidden>
+
   <hidden manager="plone.portalfooter" skinname="GESAC Theme" based-on="Plone Default">
 <!-- EXAMPLE (UNCOMMENT TO MAKE AVAILABLE):
     <viewlet name="plone.global_sections" />    
