@@ -30,9 +30,16 @@ gesac/theme/browser/interfaces.py
 gesac/theme/browser/viewlet.pt
 gesac/theme/browser/viewlets.py
 gesac/theme/browser/images/README.txt
-gesac/theme/browser/images/barra.jpg
+gesac/theme/browser/images/bgDivHeaderBrasil.gif
 gesac/theme/browser/images/facebook.png
+gesac/theme/browser/images/fale_conosco.jpg
+gesac/theme/browser/images/fundo.gif
+gesac/theme/browser/images/imgBrasilPais.gif
+gesac/theme/browser/images/imgDivHeaderBrasil.jpg
+gesac/theme/browser/images/imgLogoBrasil.gif
+gesac/theme/browser/images/ok.gif
 gesac/theme/browser/images/orkut.png
+gesac/theme/browser/images/rss.png
 gesac/theme/browser/images/twitter.png
 gesac/theme/browser/stylesheets/README.txt
 gesac/theme/browser/stylesheets/main.css
@@ -50,3 +57,4 @@ gesac/theme/skins/gesac_theme_custom_images/logo.jpg
 gesac/theme/skins/gesac_theme_custom_templates/CONTENT.txt
 gesac/theme/skins/gesac_theme_styles/CONTENT.txt
 gesac/theme/skins/gesac_theme_styles/base_properties.props
+gesac/theme/skins/gesac_theme_styles/ploneCustom.css

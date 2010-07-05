@@ -2,7 +2,6 @@
 
 body {
     background-image: url(++resource++gesac.theme.images/fundo.gif);
-    padding-bottom: 0;
 }
 
 #visual-portal-wrapper {
@@ -14,7 +13,18 @@ body {
     background-color: white;
 }
 
+#acessibilidade span {
+    color: #4a7ac6;
+}
 
+#acessibilidade ul li {
+    display: inline;
+    margin-left: 15px;
+}
+
+#acessibilidade ul li a:link {
+    text-decoration: none;
+}
 
 #divHeaderBrasil {
 	width:100%;
@@ -87,7 +97,7 @@ body {
     width: 994px;
     height: 35px;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: #017fbc;
 }
 
 #footer p {
@@ -95,6 +105,8 @@ body {
     font-size: 1.3em;
     font-weight: bold;
     padding-left: 10px;
+    color: #fff;
+    line-height: 35px;
 }
 
 #footer ul {
@@ -102,10 +114,37 @@ body {
     width: 150px;
     margin: 0;
     padding: 0;
+    line-height: 35px;
 }
 
 #footer ul li {
 	display: inline;
 	float: left;
     padding-right: 15px;
+}
+
+
+
+#portal-searchbox .LSBox .rss {
+    background:url(++resource++gesac.theme.images/rss.png) no-repeat;
+    width: 32px;
+    height: 32px;
+    border: none;
+    text-indent: -9000px;
+    margin-right: 40px;
+}
+
+#portal-searchbox .LSBox .searchButton {
+    background:url(++resource++gesac.theme.images/ok.gif) no-repeat;
+    width: 40px;
+    height: 40px;
+    border: none;
+    text-indent:-9000px ;
+}
+
+#portal-searchbox .LSBox .faleConosco {
+    background:url(++resource++gesac.theme.images/fale_conosco.jpg) no-repeat;
+    width: 121px;
+    height: 25px;
+    text-indent:-9000px ;
 }

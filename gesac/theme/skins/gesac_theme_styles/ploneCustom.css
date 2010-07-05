@@ -104,3 +104,17 @@
     font-size: 1.2em;
     color: #92addc;
 }
+
+/* - public.css - */
+
+#portal-siteactions li a {
+    color: #4a7ac6;
+}
+
+#portal-breadcrumbs a {
+    color: #4a7ac6;
+}
+
+#portal-breadcrumbs span {
+    color: #4a7ac6;
+}
