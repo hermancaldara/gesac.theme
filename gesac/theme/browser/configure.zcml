@@ -15,13 +15,21 @@
       name="GESAC Theme"
       />
 
-
   <!-- Viewlets plone registration -->
   <browser:viewlet
       name="plone.footer"
       for="*"
       manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
       template="templates/footer.pt"
+      permission="zope.Public"
+      layer=".interfaces.IThemeSpecific"
+      />
+      
+  <browser:viewlet
+      name="plone.acessibilidade"
+      for="*"
+      manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+      template="templates/acessibilidade.pt"
       permission="zope.Public"
       layer=".interfaces.IThemeSpecific"
       />

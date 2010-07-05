@@ -1,0 +1,22 @@
+<ul id="acessibilidade">
+  <li>
+    <a href="javascript:setBaseFontSize('',1);">
+      <span><img src="++resource++gesac.theme.images/a.gif">Fonte normal</span>
+    </a>
+  </li>
+  <li>
+    <a href="javascript:setBaseFontSize('smallText',1);">
+      <span><img src="++resource++gesac.theme.images/a_menos.gif">Diminuir fonte</span>
+    </a>
+  </li>
+  <li>
+    <a href="javascript:setBaseFontSize('largeText',%201);">
+      <span><img src="++resource++gesac.theme.images/a_mais.gif">Aumentar fonte</span>
+    </a>
+  </li>
+  <li>
+    <a href="javascript:setBaseFontSize('largeText',%201);">
+      <span><img src="++resource++gesac.theme.images/contraste.gif">Contraste</span>
+    </a>
+  </li>
+</ul>

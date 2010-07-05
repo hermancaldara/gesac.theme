@@ -34,7 +34,12 @@
              insert-before="*" />
 -->
   </order>
-
+  
+  <order manager="plone.portalheader" skinname="GESAC Theme" based-on="Plone Default">
+    <viewlet name="plone.acessibilidade" insert-before="plone.searchbox" />
+  </order>
+  
+  
   <hidden manager="plone.portalheader" skinname="GESAC Theme" based-on="Plone Default">
     <viewlet name="plone.global_sections" />
   </hidden>

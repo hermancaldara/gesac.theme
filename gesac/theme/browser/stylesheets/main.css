@@ -13,16 +13,22 @@ body {
     background-color: white;
 }
 
+#acessibilidade {
+    float: right;
+    clear: right;
+    margin-right: 30px;
+}
+
 #acessibilidade span {
     color: #4a7ac6;
 }
 
-#acessibilidade ul li {
+#acessibilidade li {
     display: inline;
     margin-left: 15px;
 }
 
-#acessibilidade ul li a:link {
+#acessibilidade li a:link {
     text-decoration: none;
 }
 
