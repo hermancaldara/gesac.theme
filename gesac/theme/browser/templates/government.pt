@@ -1,7 +1,7 @@
 <div id="divHeaderBrasil">
     <ul>
         <li class="logo">
-            <img src="++resource++gesac.theme.images/logo.gif" alt="Presidência - Presidência da Republica Federativa do Brasil" title="Presidência - Presidência da Republica Federativa do Brasil" class="presidencia" height="35" width="208">
+            <img src="++resource++gesac.theme.images/logo.gif" alt="Comunicações - Ministério das Comunicações" title="Comunicações - Ministério das Comunicações" class="comunicacoes">
         </li>
         <li class="brasil">
             <!-- <img src="++resource++gesac.theme.images/imgLogoBrasil.gif" alt="Brasil - Um País de todos" title="Brasil - Um País de todos" height="35" width="105"> -->

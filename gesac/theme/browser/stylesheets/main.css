@@ -75,7 +75,7 @@ body {
 	height:35px;
 }
 
-#divHeaderBrasil ul li img.presidencia{
+#divHeaderBrasil ul li img.comunicacoes{
 	float:left;
 	padding:0 0 0 44px;
 }
@@ -148,9 +148,15 @@ body {
     text-indent:-9000px ;
 }
 
-#portal-searchbox .LSBox .faleConosco {
-    background:url(++resource++gesac.theme.images/fale_conosco.jpg) no-repeat;
-    width: 121px;
-    height: 25px;
-    text-indent:-9000px ;
+#fale_conosco {
+    clear: right;
+    float: right;
+/*    display: block;*/
 }
+
+/*#portal-searchbox .LSBox .faleConosco {*/
+/*    background:url(++resource++gesac.theme.images/fale_conosco.jpg) no-repeat;*/
+/*    width: 121px;*/
+/*    height: 25px;*/
+/*    text-indent:-9000px ;*/
+/*}*/
