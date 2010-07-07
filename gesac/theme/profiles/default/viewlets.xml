@@ -18,6 +18,8 @@
   <order manager="plone.portaltop" skinname="GESAC Theme"
          based-on="Plone Default">
     <viewlet name="epct.government" insert-before="*" />
+    <viewlet name="plone.path_bar" insert-after="plone.header" />
+    
     <!-- The definition of a viewlet accepts these parameters:
          - name: quite self explanatory, the name of the viewlet.
          - insert-before: name of the viewlet before which it must be added or
@@ -37,6 +39,7 @@
   
   <order manager="plone.portalheader" skinname="GESAC Theme" based-on="Plone Default">
     <viewlet name="plone.acessibilidade" insert-before="plone.searchbox" />
+    <viewlet name="plone.fale_conosco" insert-before="plone.logo" />
   </order>
   
   
@@ -48,7 +51,7 @@
 <!-- EXAMPLE (UNCOMMENT TO MAKE AVAILABLE):
     <viewlet name="plone.global_sections" />    
 -->
-    <viewlet name="plone.analytics" /> 
+<!--    <viewlet name="plone.analytics" /> -->
     <viewlet name="plone.colophon" />
   </hidden>
 

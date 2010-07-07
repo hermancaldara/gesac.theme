@@ -16,11 +16,11 @@
       />
 
   <!-- Viewlets plone registration -->
+
   <browser:viewlet
-      name="plone.footer"
-      for="*"
-      manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
-      template="templates/footer.pt"
+      name="epct.government"
+      manager="plone.app.layout.viewlets.interfaces.IPortalTop"
+      template="templates/government.pt"
       permission="zope.Public"
       layer=".interfaces.IThemeSpecific"
       />
@@ -35,12 +35,23 @@
       />
       
   <browser:viewlet
-      name="epct.government"
-      manager="plone.app.layout.viewlets.interfaces.IPortalTop"
-      template="templates/government.pt"
+      name="plone.fale_conosco"
+      for="*"
+      manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+      template="templates/fale_conosco.pt"
       permission="zope.Public"
       layer=".interfaces.IThemeSpecific"
       />
+      
+  <browser:viewlet
+      name="plone.footer"
+      for="*"
+      manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+      template="templates/footer.pt"
+      permission="zope.Public"
+      layer=".interfaces.IThemeSpecific"
+      />
+      
 
   
   <!-- Viewlets registration -->
