@@ -111,6 +111,16 @@
     color: #4a7ac6;
 }
 
+#portal-personaltools {
+    background-color: #fff;
+    border-top: none;
+    border-bottom: none;
+}
+
+#portal-breadcrumbs {
+    border-bottom: none;
+}
+
 #portal-breadcrumbs a {
     color: #4a7ac6;
 }

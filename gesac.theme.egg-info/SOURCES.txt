@@ -41,6 +41,7 @@ gesac/theme/browser/images/fundo.gif
 gesac/theme/browser/images/imgBrasilPais.gif
 gesac/theme/browser/images/imgDivHeaderBrasil.jpg
 gesac/theme/browser/images/imgLogoBrasil.gif
+gesac/theme/browser/images/logo.gif
 gesac/theme/browser/images/ok.gif
 gesac/theme/browser/images/orkut.png
 gesac/theme/browser/images/rss.png
