@@ -1,5 +1,6 @@
 #menu-central{
 margin-top:25px;
+margin-bottom:25px;
 height:140px;
 }
 
@@ -7,39 +8,59 @@ height:140px;
 float:left;
 position:relative;
 text-align:center;
-margin-left:2.5em;
-margin-right:2.5em;
-height:135px;
-width:80px;
+height:140px;
+width:100px;
+padding:0 25px 0;
 }
 
 #menu-central p {
-
+font-size: 10px;
+margin-bottom:10px;
 }
 
 #menu-central a {
 background-image:url(++resource++gesac.theme.images/botoes.gif);
-background-position:102% 0%;
+background-position: -92px 0px;
 background-repeat:no-repeat;
 float:left;
-height:80px;
+height:82px;
 position:relative;
-width:80px;
+width:100px;
 }
 
 #menu-central a:hover{
 background-image:url(++resource++gesac.theme.images/botoes.gif);
-background-position:0% 0%;
+background-position: 10px 0px;
 background-repeat:no-repeat;
 float:left;
-height:80px;
+height:82px;
 position:relative;
-width:80px;
+width:100px;
 }
 
 #menu-central img{
 border: none;
 }
+
+#sala-de-aula-text{
+padding-top: 10px;
+padding-bottom:5px;
+}
+
+#rede-social-text{
+padding-bottom:15px;
+padding-top:15px;
+}
+
+#conheca-seu-pid-text{
+
+}
+
+#biblioteca-digital-text{
+padding-top: 10px;
+padding-bottom:5px;
+}
+
 
 #sala-de-aula{
 margin-top:10px;
@@ -56,5 +77,6 @@ margin-left:-3px;
 
 #biblioteca-digital{
 margin-top:19px;
+margin-right:3px;
 }
 
