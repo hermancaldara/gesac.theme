@@ -1,0 +1,18 @@
+<div id='menu-central'>
+  <div class='conteudo'>
+    <p>Sala de Aula</p>
+    <a href=#><img id='sala-de-aula' src='++resource++gesac.theme.images/sala-de-aula.gif'/></a>
+  </div>
+  <div class='conteudo'>
+    <p>Rede Social</p>
+    <a href=#><img id='rede-social' src='++resource++gesac.theme.images/rede-social.gif'/></a>
+  </div>
+  <div class='conteudo'>
+    <p>Conheça seu Pid</p>
+    <a href=#><img id='conheca-seu-pid' src='++resource++gesac.theme.images/conheca-seu-pid.gif'/></a>
+  </div>
+  <div class='conteudo'>
+    <p>Biblioteca Digital</p>
+    <a href=#><img id='biblioteca-digital' src='++resource++gesac.theme.images/biblioteca-digital.gif'/></a>
+  </div>
+ </div>

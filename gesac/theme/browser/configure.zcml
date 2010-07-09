@@ -51,6 +51,16 @@
       permission="zope.Public"
       layer=".interfaces.IThemeSpecific"
       />
+
+  <browser:viewlet
+      name="gesac.botoes"
+      for="*"
+      manager="plone.app.layout.viewlets.interfaces.IBelowContentTitle"
+      template="templates/botoes_central.pt"
+      permission="zope.Public"
+      layer=".interfaces.IThemeSpecific"
+      />
+      
       
 
   

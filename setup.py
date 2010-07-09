@@ -26,6 +26,7 @@ setup(name='gesac.theme',
       install_requires=[
           'setuptools',
           # -*- Extra requirements: -*-
+          'collective.easyslider',
       ],
       entry_points="""
       # -*- Entry points: -*-
