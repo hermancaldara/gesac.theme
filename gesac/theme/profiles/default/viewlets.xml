@@ -38,7 +38,6 @@
   
   <order manager="plone.portalheader" skinname="GESAC Theme" based-on="Plone Default">
     <viewlet name="plone.acessibilidade" insert-before="plone.searchbox" />
-    <viewlet name="plone.fale_conosco" insert-before="plone.logo" />
   </order>
   
   

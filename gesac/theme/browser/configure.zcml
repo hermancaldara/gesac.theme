@@ -19,6 +19,7 @@
 
   <browser:viewlet
       name="epct.government"
+      for="*"
       manager="plone.app.layout.viewlets.interfaces.IPortalTop"
       template="templates/government.pt"
       permission="zope.Public"
@@ -30,15 +31,6 @@
       for="*"
       manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
       template="templates/acessibilidade.pt"
-      permission="zope.Public"
-      layer=".interfaces.IThemeSpecific"
-      />
-      
-  <browser:viewlet
-      name="plone.fale_conosco"
-      for="*"
-      manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
-      template="templates/fale_conosco.pt"
       permission="zope.Public"
       layer=".interfaces.IThemeSpecific"
       />
@@ -60,9 +52,6 @@
       permission="zope.Public"
       layer=".interfaces.IThemeSpecific"
       />
-      
-      
-
   
   <!-- Viewlets registration -->
   <!-- EXAMPLE (UNCOMMENT TO MAKE AVAILABLE):

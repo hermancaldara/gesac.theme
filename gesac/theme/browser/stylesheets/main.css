@@ -147,16 +147,3 @@ body {
     border: none;
     text-indent:-9000px ;
 }
-
-#fale_conosco {
-    clear: right;
-    float: right;
-/*    display: block;*/
-}
-
-/*#portal-searchbox .LSBox .faleConosco {*/
-/*    background:url(++resource++gesac.theme.images/fale_conosco.jpg) no-repeat;*/
-/*    width: 121px;*/
-/*    height: 25px;*/
-/*    text-indent:-9000px ;*/
-/*}*/
