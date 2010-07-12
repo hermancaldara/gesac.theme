@@ -101,7 +101,7 @@ body {
 
 #footer {
     width: 994px;
-    height: 35px;
+    height: 40px;
     margin: 0 auto;
     background-color: #017fbc;
 }
@@ -112,7 +112,7 @@ body {
     font-weight: bold;
     padding-left: 10px;
     color: #fff;
-    line-height: 35px;
+    line-height: 40px;
 }
 
 #footer ul {
@@ -120,7 +120,7 @@ body {
     width: 150px;
     margin: 0;
     padding: 0;
-    line-height: 35px;
+    line-height: 40px;
 }
 
 #footer ul li {
@@ -129,7 +129,13 @@ body {
     padding-right: 15px;
 }
 
-
+#portal-searchbox .LSBox {
+    background: url(++resource++gesac.theme.images/fundo_busca.jpg) no-repeat;
+    margin: 0;
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-right: 20px;
+}
 
 #portal-searchbox .LSBox .rss {
     background:url(++resource++gesac.theme.images/rss.png) no-repeat;
@@ -141,9 +147,26 @@ body {
 }
 
 #portal-searchbox .LSBox .searchButton {
-    background:url(++resource++gesac.theme.images/ok.gif) no-repeat;
-    width: 40px;
-    height: 40px;
+    background:url(++resource++gesac.theme.images/ok.jpg) no-repeat;
+    width: 30px;
+    height: 26px;
     border: none;
     text-indent:-9000px ;
 }
+
+#fale_conosco {
+    padding-top: 5px;
+}
+
+#tudo {
+    padding-right: 140px;
+}
+
+#favoritos ul {
+    list-style: none;
+}
+
+#favoritos ul li {
+    display: inline;
+}
+

@@ -34,7 +34,6 @@ gesac/theme/browser/images/a.gif
 gesac/theme/browser/images/a_mais.gif
 gesac/theme/browser/images/a_menos.gif
 gesac/theme/browser/images/bgDivHeaderBrasil.gif
-gesac/theme/browser/images/bgInputBusca.gif
 gesac/theme/browser/images/biblioteca-digital.gif
 gesac/theme/browser/images/botoes.gif
 gesac/theme/browser/images/conheca-seu-pid.gif

@@ -25,7 +25,7 @@
       permission="zope.Public"
       layer=".interfaces.IThemeSpecific"
       />
-      
+
   <browser:viewlet
       name="plone.acessibilidade"
       for="*"
@@ -34,7 +34,7 @@
       permission="zope.Public"
       layer=".interfaces.IThemeSpecific"
       />
-      
+
   <browser:viewlet
       name="plone.footer"
       for="*"
@@ -45,6 +45,16 @@
       />
 
   <browser:viewlet
+      name="plone.searchbox"
+      for="*"
+      manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+      template="templates/searchbox.pt"
+      permission="zope.Public"
+      layer=".interfaces.IThemeSpecific"
+      class="plone.app.layout.viewlets.common.SearchBoxViewlet"
+      />
+
+  <browser:viewlet
       name="gesac.botoes"
       for="*"
       manager="plone.app.layout.viewlets.interfaces.IBelowContentTitle"
@@ -52,7 +62,7 @@
       permission="zope.Public"
       layer=".interfaces.IThemeSpecific"
       />
-  
+
   <!-- Viewlets registration -->
   <!-- EXAMPLE (UNCOMMENT TO MAKE AVAILABLE):
   <browser:viewlet
@@ -89,3 +99,4 @@
       />
 
 </configure>
+

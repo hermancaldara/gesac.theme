@@ -136,9 +136,10 @@
 /* - forms.css - */
 
 #searchGadget {
-    background: url(++resource++gesac.theme.images/bgInputBusca.gif) no-repeat;
+    background: url(++resource++gesac.theme.images/busca.jpg) no-repeat;
     border: none;
-    width: 161px;
-    height: 22px;
-    padding: 3px 8px 0 20px;
+    width: 130px;
+    height: 27px;
+    padding: 5px 8px 0 30px;
 }
+
