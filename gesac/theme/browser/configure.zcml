@@ -55,6 +55,16 @@
       />
 
   <browser:viewlet
+      name="plone.logo"
+      for="*"
+      manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+      template="templates/logo.pt"
+      permission="zope.Public"
+      layer=".interfaces.IThemeSpecific"
+      class="plone.app.layout.viewlets.common.LogoViewlet"
+      />
+
+  <browser:viewlet
       name="gesac.botoes"
       for="*"
       manager="plone.app.layout.viewlets.interfaces.IBelowContentTitle"

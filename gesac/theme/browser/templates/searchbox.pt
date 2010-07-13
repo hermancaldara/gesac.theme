@@ -10,13 +10,6 @@
         <label for="searchGadget" class="hiddenStructure"
                     i18n:translate="text_search">Search Site</label>
 
-    <div id="favoritos">
-      <ul>
-        <li><img src="++resource++gesac.theme.images/home.jpg"></li>
-        <li><img src="++resource++gesac.theme.images/interrogacao.jpg"></li>
-        <li><img src="++resource++gesac.theme.images/rss_barra.jpg"></li>
-      </ul>
-    </div>
 
     <div id="busca">
         <div class="LSBox">
