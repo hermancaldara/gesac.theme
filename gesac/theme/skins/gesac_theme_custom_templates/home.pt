@@ -111,11 +111,6 @@
                      tal:define="show_border context/@@plone/showEditableBorder"
                      tal:attributes="class python:test(show_border,'documentEditable','')">
 
-                  <div class="visualPadding">
-                    <tal:block replace="structure provider:gesac.homeviewletmanager" />
-                  </div>
-
-
                   <div tal:replace="structure provider:plone.contentviews" />
 
                   <div id="region-content"
@@ -132,6 +127,10 @@
                     
                     <div id="viewlet-above-content" tal:content="structure provider:plone.abovecontent" />
 
+                    <div class="visualPadding">
+                      <tal:block replace="structure provider:gesac.homeviewletmanager" />
+                    </div>
+
                     <metal:slot metal:define-slot="body">
                     <div id="content">
                       <metal:header metal:define-slot="header" tal:content="nothing">
@@ -143,8 +142,8 @@
                     </div>
                     </metal:slot>
 
-                    <metal:sub metal:define-slot="sub">
-                    
+                    <metal:sub metal:define-slot="sub">             
+
                       <div tal:replace="structure provider:plone.belowcontent" />
                     
                     </metal:sub>
