@@ -15,6 +15,15 @@
       name="GESAC Theme"
       />
 
+  <!-- ViewletManager plone registration -->
+  <browser:viewletManager
+      name="gesac.homeviewletmanager"
+      provides=".interfaces.IHomeViewletManager"
+      layer=".interfaces.IThemeSpecific"
+      class=".viewletmanager.HomeViewletManager"
+      permission="zope2.View"
+  />
+
   <!-- Viewlets plone registration -->
 
   <browser:viewlet
@@ -65,9 +74,18 @@
       />
 
   <browser:viewlet
+		name="collective.easyslider"
+        for="Products.CMFCore.interfaces._content.ISiteRoot"
+		manager=".interfaces.IHomeViewletManager"
+		class="collective.easyslider.browser.viewlet.EasySlider"
+		layer=".interfaces.IThemeSpecific"
+		permission="zope2.View" 
+  />
+
+  <browser:viewlet
       name="gesac.botoes"
-      for="*"
-      manager="plone.app.layout.viewlets.interfaces.IBelowContentTitle"
+      for="Products.CMFCore.interfaces._content.ISiteRoot"
+      manager=".interfaces.IHomeViewletManager"
       template="templates/botoes_central.pt"
       permission="zope.Public"
       layer=".interfaces.IThemeSpecific"
@@ -101,6 +119,7 @@
     See gesac/theme/browser/stylesheets/README.txt
     for more information about registering stylesheets as Zope 3 browser
     resources.
+    Products.CMFCore.interfaces.ISiteRoot
   -->
   <browser:resourceDirectory
       name="gesac.theme.stylesheets"

@@ -1,4 +1,5 @@
 from plone.theme.interfaces import IDefaultPloneLayer
+from zope.viewlet.interfaces import IViewletManager
 
 
 class IThemeSpecific(IDefaultPloneLayer):
@@ -7,3 +8,9 @@ class IThemeSpecific(IDefaultPloneLayer):
        "GESAC Theme" theme, this interface must be its layer
        (in theme/viewlets/configure.zcml).
     """
+
+class IHomeViewletManager(IViewletManager):
+    """
+        News Viewlet Manager
+    """
+
