@@ -1,0 +1,221 @@
+<html>
+   <head>
+      <script language="javascript" src="++resource++gesac.theme.stylesheets/abas.js"></script>  
+      <link rel="stylesheet" href="++resource++gesac.theme.stylesheets/abas.css">
+      <link rel="stylesheet" href="++resource++gesac.theme.stylesheets/conteudo.css">
+   </head>
+   <body>		                  
+      <div class="visualPadding">
+         <tal:comment replace="nothing"> AREA DO SLIDESHOW </tal:comment>
+         &nbsp;
+      </div>
+      <tal:comment replace="nothing"> ABAS DE NOTICIAS E ENCONTROS E OFICINAS </tal:comment>
+      <div>  
+         <table class="estilo">
+            <tr>
+               <td class="linhac"></td>          
+               <td class="abaativa" id="aba_noticias" onClick="trataCliqueAba(this.id);" onMouseOver="trataMouseAba(this);">
+                  Notícias                    
+               </td>     
+               <td class="linhap"></td>          
+               <td class="abainativa" id="aba_encontros_oficinas" onClick="trataCliqueAba(this.id);" onMouseOver="trataMouseAba(this);" >
+                  Encontros e Oficinas                      
+               </td>   
+	       <td class="linhag"></td>    
+            </tr>
+         </table>
+      </div>
+      <div class="bloco_noticias" id="noticias">
+         <table class="estrutura">
+            <tr>
+               <td>
+                  <div tal:define="view context/@@news_view;
+	                           results python:view.published_news_items()[:9];
+				   news_link view/all_news_link">
+                     <dl class="base baseNews"
+                         xmlns="http://www.w3.org/1999/xhtml"
+    			 xmlns:tal="http://xml.zope.org/namespaces/tal"
+			 xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+			 i18n:domain="plone">
+                        <table tal:define="obj view/published_news_items">
+			   <tr tal:repeat="linha python:range(2)">
+			      <tal:newsitems tal:define="toLocalizedTime nocall:context/@@plone/toLocalizedTime;
+				                        plone_view context/@@plone;
+							getIcon nocall:plone_view/getIcon"
+					     tal:repeat="objeto obj">
+                                 <span tal:define="li repeat/linha/number; contador repeat/objeto/number;">         
+                                    <td tal:condition="python:li == 1 and contador <= 3">
+                                       <dd tal:define="oddrow repeat/objeto/odd;  
+                                                      item_icon python:getIcon(objeto)"
+                                           tal:attributes="class python:oddrow and 'baseItem even' or 'baseItem odd'">
+                                          <p class="baseItemDetails" 
+                                             tal:define="url objeto/getURL; 
+                                                        id objeto/getId;
+                                                        portal_url context/@@plone_portal_state/portal_url;
+                                                        novaurl python:url.split(portal_url)[1];
+                                                        marcador python:novaurl.split('/')[1]"
+                                             tal:attributes="teste marcador">
+                                             <img tal:attributes="src string:${marcador}/marcador.gif"/>
+                                             <span class="legenda" tal:content="marcador"/>
+                                             &nbsp;&nbsp; 
+                                             <span class="data" tal:content="python:toLocalizedTime(objeto.Date)"/>
+                                          </p>
+                                          <a href=""
+                                             class="tile"
+                                             tal:attributes="href objeto/getURL;
+                                                            title objeto/Description">            
+                                             <span tal:replace="objeto/pretty_title_or_id">           
+                                                Plone 2.1 announced!
+                                             </span>            
+                                          </a>
+                                         <span tal:content="objeto/Description"/>
+                                       </dd>
+                                    </td>
+                                    <td tal:condition="python:li == 2 and contador >= 4 and contador <=6">
+                                       <dd tal:define="oddrow repeat/objeto/odd;  
+                                                      item_icon python:getIcon(objeto)"
+                                           tal:attributes="class python:oddrow and 'baseItem even' or 'baseItem odd'">    
+                                          <p class="baseItemDetails" 
+                                             tal:define="url objeto/getURL; 
+                                                        id objeto/getId;
+                                                        portal_url context/@@plone_portal_state/portal_url;
+                                                        novaurl python:url.split(portal_url)[1];
+                                                        marcador python:novaurl.split('/')[1]">
+                                             <img tal:attributes="src string:${marcador}/marcador.gif"/>
+                                             <span class="legenda" tal:content="marcador"/>                  
+                                             &nbsp;&nbsp; 
+                                             <span class="data" tal:content="python:toLocalizedTime(objeto.Date)"/>
+                                          </p>        
+                                          <a href=""
+                                             class="tile"
+                                             tal:attributes="href objeto/getURL;
+                                                            title objeto/Description">            
+                                             <span tal:replace="objeto/pretty_title_or_id">           
+                                                Plone 2.1 announced!
+                                             </span>            
+                                          </a>
+                                          <span tal:content="objeto/Description"/>
+                                       </dd>
+                                    </td>
+                                 </span>
+                              </tal:newsitems>
+                           </tr>
+                        </table>
+                        <dd class="baseFooter"
+                            tal:condition="view/all_news_link">
+                           <span class="baseBottomLeft"></span>
+                           <a href=""
+                              tal:attributes="href view/all_news_link">
+                              <!-- i18n:translate="box_more_news_link"> -->
+                              VEJA MAIS AQUI
+                           </a>
+                           <span class="baseBottomRight"></span>
+                        </dd>
+                        <tal:block condition="not:view/all_news_link">
+                           <dd class="baseFooter">
+                              <span class="baseBottomLeft"></span>
+                              <span class="baseBottomRight"></span>
+                           </dd>
+                        </tal:block>
+                     </dl>
+                  </div>
+               </td>
+            </tr>
+         </table>                   
+      </div>
+    
+      <div class="bloco_encontros_oficinas" id="encontros_oficinas">
+         <table class="estrutura">
+            <tr>
+               <td>
+                  <div tal:define="view context/@@events_view;
+                                  results view/published_events;
+                                  events_link view/all_events_link;
+                                  prev_events_link view/prev_events_link"
+                       tal:condition="results">
+                     <dl class="base" id="base-events">    
+                        <table tal:define="obj view/published_events">
+                           <tr tal:repeat="linha python:range(2)">    
+                              <tal:events tal:repeat="objeto obj" 
+                                          tal:define="toLocalizedTime nocall:context/@@plone/toLocalizedTime">
+                                 <span tal:define="li repeat/linha/number;
+                                                  contador repeat/objeto/number;">
+                                    <td tal:condition="python:li == 1 and contador <= 3">
+                                       <dd class="baseItem"
+                                           tal:define="oddrow repeat/objeto/odd"
+                                           tal:attributes="class python:oddrow and 'baseItem even' or 'baseItem odd'">
+                                          <p class="baseItemDetails" 
+                                             tal:define="url objeto/getURL; 
+                                                        id objeto/getId;
+                                                        portal_url context/@@plone_portal_state/portal_url;
+                                                        novaurl python:url.split(portal_url)[1];
+                                                        marcador python:novaurl.split('/')[1]">
+                                             <span class="legenda" tal:content="marcador"/>
+                                             <span class="data" tal:content="python:toLocalizedTime(objeto.start)"/>                
+                                           </p>
+                                           <a href="#"
+                                              class="tile"
+                                              tal:attributes="href objeto/getURL;
+                                                             title objeto/Description">
+                                              <span tal:replace="objeto/pretty_title_or_id">
+                                                 Some Event 
+                                              </span>
+                                           </a>
+                                           <span tal:content="objeto/Description"/>
+                                        </dd>
+                                     </td>
+                                     <td tal:condition="python:li == 2 and contador >= 4 and contador <=6">
+                                        <dd class="baseItem"
+                                            tal:define="oddrow repeat/objeto/odd"
+                                            tal:attributes="class python:oddrow and 'baseItem even' or 'baseItem odd'">
+                                           <p class="baseItemDetails" 
+                                              tal:define="url objeto/getURL; 
+                                                         id objeto/getId;
+                                                         portal_url context/@@plone_portal_state/portal_url;
+                                                         novaurl python:url.split(portal_url)[1];
+                                                         marcador python:novaurl.split('/')[2]">
+                                              <span class="legenda" tal:content="marcador"/>
+                                              <span class="data" tal:content="python:toLocalizedTime(objeto.start)"/>                
+                                           </p>
+                                           <a href="#"
+                                              class="tile"
+                                              tal:attributes="href objeto/getURL;
+                                                             title objeto/Description">
+                                              <span tal:replace="objeto/pretty_title_or_id">
+                                                 Some Event 
+                                              </span>            
+                                           </a>
+                                           <span tal:content="objeto/Description"/>
+                                        </dd>
+                                     </td>
+                                  </span>
+                               </tal:events>
+                            </tr>    
+                         </table>
+                         <dd class="baseFooter"
+                             tal:condition="prev_events_link">
+                            <a href=""
+                               tal:attributes="href prev_events_link"
+                               class="tile">
+                               <span i18n:translate="box_previous_events">
+                                  Previous events&hellip;
+                               </span>
+                            </a>
+                         </dd>
+                         <dd class="baseFooter">
+                            <a href=""
+                               tal:attributes="href events_link">
+                               <!-- i18n:translate="box_upcoming_events"> -->
+                               VEJA MAIS AQUI     
+                            </a>
+                           <span class="baseBottomLeft"></span>
+                           <span class="baseBottomRight"></span>
+                        </dd>
+                     </dl>
+                  </div>
+               </td>
+            </tr>
+         </table>                   
+      </div>
+   </body>
+</html>

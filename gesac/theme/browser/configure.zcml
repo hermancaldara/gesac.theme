@@ -74,12 +74,12 @@
       />
 
   <browser:viewlet
-		name="collective.easyslider"
+        name="collective.easyslider"
         for="Products.CMFCore.interfaces._content.ISiteRoot"
-		manager=".interfaces.IHomeViewletManager"
-		class="collective.easyslider.browser.viewlet.EasySlider"
-		layer=".interfaces.IThemeSpecific"
-		permission="zope2.View" 
+	manager=".interfaces.IHomeViewletManager"
+	class="collective.easyslider.browser.viewlet.EasySlider"
+	layer=".interfaces.IThemeSpecific"
+	permission="zope2.View" 
   />
 
   <browser:viewlet
@@ -87,6 +87,15 @@
       for="Products.CMFCore.interfaces._content.ISiteRoot"
       manager=".interfaces.IHomeViewletManager"
       template="templates/botoes_central.pt"
+      permission="zope.Public"
+      layer=".interfaces.IThemeSpecific"
+      />
+
+  <browser:viewlet
+      name="plone.conteudo"
+      for="Products.CMFCore.interfaces._content.ISiteRoot"
+      manager=".interfaces.IHomeViewletManager"
+      template="templates/conteudo.pt"
       permission="zope.Public"
       layer=".interfaces.IThemeSpecific"
       />
