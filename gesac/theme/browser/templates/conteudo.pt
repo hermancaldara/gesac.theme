@@ -55,7 +55,7 @@
                                                         novaurl python:url.split(portal_url)[1];
                                                         marcador python:novaurl.split('/')[1]"
                                              tal:attributes="teste marcador">
-                                             <img tal:attributes="src string:${marcador}/marcador.gif"/>
+                                             <img tal:attributes="src string:++resource++gesac.theme.images/${marcador}.png"/>
                                              <span class="legenda" tal:content="marcador"/>
                                              &nbsp;&nbsp; 
                                              <span class="data" tal:content="python:toLocalizedTime(objeto.Date)"/>
@@ -81,7 +81,7 @@
                                                         portal_url context/@@plone_portal_state/portal_url;
                                                         novaurl python:url.split(portal_url)[1];
                                                         marcador python:novaurl.split('/')[1]">
-                                             <img tal:attributes="src string:${marcador}/marcador.gif"/>
+                                             <img tal:attributes="src string:++resource++gesac.theme.images/${marcador}.png"/>
                                              <span class="legenda" tal:content="marcador"/>                  
                                              &nbsp;&nbsp; 
                                              <span class="data" tal:content="python:toLocalizedTime(objeto.Date)"/>
@@ -108,7 +108,9 @@
                               tal:attributes="href view/all_news_link">
                               <!-- i18n:translate="box_more_news_link"> -->
                               VEJA MAIS AQUI
+                              <img src="++resource++gesac.theme.images/bolinhacruz.png">
                            </a>
+                           
                            <span class="baseBottomRight"></span>
                         </dd>
                         <tal:block condition="not:view/all_news_link">
@@ -150,6 +152,7 @@
                                                         portal_url context/@@plone_portal_state/portal_url;
                                                         novaurl python:url.split(portal_url)[1];
                                                         marcador python:novaurl.split('/')[1]">
+                                             <img tal:attributes="src string:++resource++gesac.theme.images/${marcador}.png"/>
                                              <span class="legenda" tal:content="marcador"/>
                                              <span class="data" tal:content="python:toLocalizedTime(objeto.start)"/>                
                                            </p>
@@ -173,7 +176,8 @@
                                                          id objeto/getId;
                                                          portal_url context/@@plone_portal_state/portal_url;
                                                          novaurl python:url.split(portal_url)[1];
-                                                         marcador python:novaurl.split('/')[2]">
+                                                         marcador python:novaurl.split('/')[1]">
+                                              <img tal:attributes="src string:++resource++gesac.theme.images/${marcador}.png"/>
                                               <span class="legenda" tal:content="marcador"/>
                                               <span class="data" tal:content="python:toLocalizedTime(objeto.start)"/>                
                                            </p>
@@ -206,7 +210,8 @@
                             <a href=""
                                tal:attributes="href events_link">
                                <!-- i18n:translate="box_upcoming_events"> -->
-                               VEJA MAIS AQUI     
+                               VEJA MAIS AQUI  
+                               <img src="++resource++gesac.theme.images/bolinhacruz.png">   
                             </a>
                            <span class="baseBottomLeft"></span>
                            <span class="baseBottomRight"></span>
