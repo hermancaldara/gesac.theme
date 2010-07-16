@@ -28,6 +28,7 @@ gesac/theme/browser/__init__.py
 gesac/theme/browser/configure.zcml
 gesac/theme/browser/interfaces.py
 gesac/theme/browser/viewlet.pt
+gesac/theme/browser/viewletmanager.py
 gesac/theme/browser/viewlets.py
 gesac/theme/browser/images/README.txt
 gesac/theme/browser/images/a.gif
@@ -79,6 +80,7 @@ gesac/theme/skins/gesac_theme_custom_images/CONTENT.txt
 gesac/theme/skins/gesac_theme_custom_images/favicon.ico
 gesac/theme/skins/gesac_theme_custom_images/logo.jpg
 gesac/theme/skins/gesac_theme_custom_templates/CONTENT.txt
+gesac/theme/skins/gesac_theme_custom_templates/home.pt
 gesac/theme/skins/gesac_theme_styles/CONTENT.txt
 gesac/theme/skins/gesac_theme_styles/base_properties.props
 gesac/theme/skins/gesac_theme_styles/ploneCustom.css

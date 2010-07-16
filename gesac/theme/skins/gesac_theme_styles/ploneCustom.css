@@ -74,6 +74,7 @@
 
 .portletNavigationTree {
     border: 1px solid black;
+    border-bottom: none;
 }
 
 .portletNavigationTree .portletHeader {
@@ -87,12 +88,7 @@
 }
 
 .navTreeItem, .visualNoMarker {
-    padding: 10px 0 10px 5px;
     border-bottom: 1px solid black;
-}
-
-.navTreeFolderish {
-    border-bottom: none;
 }
 
 .navTreeItem img, .visualNoMarker img, .navTreeFolderish img {
@@ -102,7 +98,21 @@
 .navTreeItem span, .visualNoMarker span, .navTreeFolderish span {
     font-weight: bold;
     font-size: 1.2em;
-    color: #92addc;
+}
+
+.portletItem ul li {
+    margin: 0;
+    padding: 0;
+}
+
+.navTreeItem a, dd.portletItem .navTreeItem a {
+    padding: 15px 0px 15px 25px;
+    color: #4979c3;
+}
+
+.navTreeItem a:hover, dd.portletItem .navTreeItem a:hover {
+    background-color: #4979c3;
+    color: white;
 }
 
 /* - public.css - */
@@ -141,5 +151,55 @@
     width: 130px;
     height: 27px;
     padding: 5px 8px 0 30px;
+}
+
+/* - member.css - */
+
+.state-private {
+    color: #4979c3 !important;
+}
+
+.state-private:hover {
+    color: #fff !important;
+}
+
+.state-visible {
+    color: #4979c3 !important;
+}
+
+.state-visible:hover {
+    color: #fff !important;
+}
+
+.state-published {
+    color: #4979c3 !important;
+}
+
+.state-published:hover {
+    color: #fff !important;
+}
+
+.state-pending {
+    color: #4979c3 !important;
+}
+
+.state-pending:hover {
+    color: #fff !important;
+}
+
+.state-expired {
+    color: #4979c3 !important;
+}
+
+.state-expired:hover {
+    color: #fff !important;
+}
+
+.syndicated {
+    color: #4979c3 !important;
+}
+
+.syndicated:hover {
+    color: #fff !important;
 }
 
