@@ -36,6 +36,7 @@ gesac/theme/browser/images/a_mais.gif
 gesac/theme/browser/images/a_menos.gif
 gesac/theme/browser/images/bgDivHeaderBrasil.gif
 gesac/theme/browser/images/biblioteca-digital.gif
+gesac/theme/browser/images/bolinhacruz.png
 gesac/theme/browser/images/botoes.gif
 gesac/theme/browser/images/busca.jpg
 gesac/theme/browser/images/conheca-seu-pid.gif
@@ -52,6 +53,9 @@ gesac/theme/browser/images/interrogacao.jpg
 gesac/theme/browser/images/logo.gif
 gesac/theme/browser/images/ok.jpg
 gesac/theme/browser/images/orkut.jpg
+gesac/theme/browser/images/pids.png
+gesac/theme/browser/images/pontos-gesac.png
+gesac/theme/browser/images/projeto.png
 gesac/theme/browser/images/rede-social.gif
 gesac/theme/browser/images/rss.png
 gesac/theme/browser/images/rss_barra.jpg
@@ -81,6 +85,7 @@ gesac/theme/skins/gesac_theme_custom_images/favicon.ico
 gesac/theme/skins/gesac_theme_custom_images/logo.jpg
 gesac/theme/skins/gesac_theme_custom_templates/CONTENT.txt
 gesac/theme/skins/gesac_theme_custom_templates/home.pt
+gesac/theme/skins/gesac_theme_custom_templates/servicos_publicos.pt
 gesac/theme/skins/gesac_theme_styles/CONTENT.txt
 gesac/theme/skins/gesac_theme_styles/base_properties.props
 gesac/theme/skins/gesac_theme_styles/ploneCustom.css
