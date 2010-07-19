@@ -14,9 +14,10 @@
       <span><img src="++resource++gesac.theme.images/a_mais.gif">Aumentar fonte</span>
     </a>
   </li>
-  <li>
-    <a href="javascript:setBaseFontSize('largeText',%201);">
-      <span><img src="++resource++gesac.theme.images/contraste.gif">Contraste</span>
-    </a>
-  </li>
+<!--  <li>-->
+<!--    <a href="javascript:setBaseFontSize('largeText',%201);">-->
+<!--      <span><img src="++resource++gesac.theme.images/contraste.gif">Contraste</span>-->
+<!--    </a>-->
+<!--  </li>-->
 </ul>
+
