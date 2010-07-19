@@ -1,6 +1,5 @@
 .abaativa {
-    font-family: verdana;
-    font-size: 10px;
+    font-size: 12px;
     font-style: normal;
     line-height: normal;
     font-weight: bold;
@@ -20,13 +19,13 @@
     -moz-border-radius-topright: 1.4em; 
     -moz-border-radius-topleft: 1.4em;
     padding: 10px;
+    font: "MyriadPro-Bold";
     
     
 }
 
 .abainativa {
-    font-family: verdana;
-    font-size: 10px;
+    font-size: 12px;
     font-style: normal;
     line-height: normal;
     font-weight: bold;
@@ -46,6 +45,7 @@
     -moz-border-radius-topright: 1.4em; 
     -moz-border-radius-topleft: 1.4em;
     padding: 10px;
+    font: "MyriadPro-Bold";
 }
 
 .estilo{

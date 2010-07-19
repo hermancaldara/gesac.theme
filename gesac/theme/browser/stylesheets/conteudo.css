@@ -103,10 +103,21 @@
 /*    text-indent: 2.4em;    */
 }
 
-.legenda{
+.pontos-gesac{
     font-size: 1.3em;
-    color: #CD2626;
+    color: #008B00;
 }
+
+.pids{
+    font-size: 1.3em;
+    color: #4979C3;
+}
+
+.projeto{
+    font-size: 1.3em;
+    color: #057CC1;
+}
+
 .data{
     font-size: 0.9em;
 }
@@ -118,6 +129,7 @@
     text-align: right;   
     color: #1E90FF;
     font-weight: bold; 
+    font: "MyriadPro-Bold"
 }
 
 
