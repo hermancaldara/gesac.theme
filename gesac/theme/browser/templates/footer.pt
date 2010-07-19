@@ -1,14 +1,11 @@
 <div id="footer">
-    <p>Portal Gesac 2010 - Inclusão Digital</p>
-    <ul>
-        <li>
-            <img src="++resource++gesac.theme.images/facebook.jpg">
-        </li>
-        <li>
-            <img src="++resource++gesac.theme.images/twitter.jpg">
-        </li>
-        <li>
-            <img src="++resource++gesac.theme.images/orkut.jpg">
-        </li>
-    </ul>
+  <p>Portal Gesac 2010 - Inclusão Digital</p>
+  <ul>
+    <li><img src="++resource++gesac.theme.images/facebook.jpg"></li>
+    <a href="http://twitter.com/FormacaoGesac">
+      <li><img src="++resource++gesac.theme.images/twitter.jpg"></li>
+    </a>
+    <li><img src="++resource++gesac.theme.images/orkut.jpg"></li>
+  </ul>
 </div>
+
