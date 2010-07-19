@@ -1,0 +1,24 @@
+<html xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      i18n:domain="plone">
+
+<body>
+
+<div metal:define-macro="kit_sos_avaliacao" id="kit_sos_avaliacao">
+    <div id="kit_sos">
+      <a href="."><span>KIT SOS</span></a>
+    </div>
+    <div id="caixa_kit_sos">
+      <a href="."><img src="++resource++gesac.theme.images/kit_sos.png" /></a>
+    </div>
+    <div id="avaliacao">
+      <a href="."><span>AVALIA&Ccedil;&Atilde;O</span></a>
+    </div>
+    <div id="caixa_avaliacao">
+      <a href="."><img src="++resource++gesac.theme.images/avaliacao.png" /></a>
+    </div>
+</div>
+
+</body>
+
+</html>

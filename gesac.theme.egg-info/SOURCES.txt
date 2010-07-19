@@ -85,6 +85,7 @@ gesac/theme/skins/gesac_theme_custom_images/favicon.ico
 gesac/theme/skins/gesac_theme_custom_images/logo.jpg
 gesac/theme/skins/gesac_theme_custom_templates/CONTENT.txt
 gesac/theme/skins/gesac_theme_custom_templates/home.pt
+gesac/theme/skins/gesac_theme_custom_templates/kit_sos_avaliacao.pt
 gesac/theme/skins/gesac_theme_custom_templates/servicos_publicos.pt
 gesac/theme/skins/gesac_theme_styles/CONTENT.txt
 gesac/theme/skins/gesac_theme_styles/base_properties.props
