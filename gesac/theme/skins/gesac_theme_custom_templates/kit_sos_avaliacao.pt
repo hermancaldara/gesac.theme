@@ -6,19 +6,20 @@
 
 <div metal:define-macro="kit_sos_avaliacao" id="kit_sos_avaliacao">
     <div id="kit_sos">
-      <a href="."><span>KIT SOS</span></a>
+      <a href="./kit-sos"><span>KIT SOS</span></a>
     </div>
     <div id="caixa_kit_sos">
-      <a href="."><img src="++resource++gesac.theme.images/kit_sos.png" /></a>
+      <a href="./kit-sos"><img src="++resource++gesac.theme.images/kit_sos.png" /></a>
     </div>
     <div id="avaliacao">
-      <a href="."><span>AVALIA&Ccedil;&Atilde;O</span></a>
+      <a href="./avaliacao"><span>AVALIA&Ccedil;&Atilde;O</span></a>
     </div>
     <div id="caixa_avaliacao">
-      <a href="."><img src="++resource++gesac.theme.images/avaliacao.png" /></a>
+      <a href="./avaliacao"><img src="++resource++gesac.theme.images/avaliacao.png" /></a>
     </div>
 </div>
 
 </body>
 
 </html>
+

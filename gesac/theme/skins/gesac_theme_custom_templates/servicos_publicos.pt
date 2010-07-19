@@ -5,7 +5,7 @@
 <body>
 
 <div metal:define-macro="servicos_publicos" id="servicos_publicos">
-  <a href=".">
+  <a href="./servicos-publicos">
     <div id="superior">
       <span>SERVI&Ccedil;OS <br> P&Uacute;BLICOS</span>
     </div>

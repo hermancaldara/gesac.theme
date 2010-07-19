@@ -5,7 +5,7 @@
 <body>
 
 <div metal:define-macro="fotos_e_videos" id="fotos_e_videos">
-  <a href=".">
+  <a href="./fotos-e-videos">
     <div id="superior">
       <span>fotos&amp;v&iacute;deos</span>
     </div>
