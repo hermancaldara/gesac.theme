@@ -4,13 +4,13 @@
 
 <body>
 
-<div metal:define-macro="servicos_publicos" id="servicos_publicos">
+<div metal:define-macro="pontos_gesac" id="pontos_gesac">
   <a href=".">
     <div id="superior">
-      <span>SERVI&Ccedil;OS <br> P&Uacute;BLICOS</span>
+      <span><img src="++resource++gesac.theme.images/mais.png" /> Pontos GESAC</span>
     </div>
     <div id="inferior">
-      <span>veja a lista completa</span>
+      <img src="++resource++gesac.theme.images/mapas_pontos_gesac.png" />
     </div>
   </a>
 </div>

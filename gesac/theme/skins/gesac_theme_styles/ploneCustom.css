@@ -209,6 +209,10 @@
     margin-top: 40px;
 }
 
+#servicos_publicos a {
+    text-decoration: none;
+}
+
 #servicos_publicos #superior {
     border: 1px solid #B8B8B8;
     padding: 10px;
@@ -282,5 +286,58 @@
     height: 80px;
     text-align: center;
     margin-top: 20px;
+}
+
+/* pontos_gesac.pt */
+
+#pontos_gesac {
+    border: 1px solid #B8B8B8;
+    margin-bottom: 50px;
+}
+
+#pontos_gesac a {
+    text-decoration: none;
+}
+
+#pontos_gesac #superior {
+    text-align: center;
+    height: 30px;
+    background-color: #4979c3;
+    line-height: 30px;
+}
+
+#pontos_gesac #superior img {
+    padding-bottom: 5px;
+}
+
+#pontos_gesac #superior span {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+/*#pontos_gesac #inferior img {*/
+/*    padding-bottom: 5px;*/
+/*}*/
+
+/* fotos_e_videos.pt */
+
+#fotos_e_videos {
+    margin-bottom: 40px;
+}
+
+#fotos_e_videos a {
+    text-decoration: none;
+}
+
+#fotos_e_videos #superior {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#fotos_e_videos #superior span {
+    color: #4979c3;
+    font-size: 2em;
+    font-weight: bold;
 }
 

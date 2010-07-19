@@ -4,13 +4,13 @@
 
 <body>
 
-<div metal:define-macro="servicos_publicos" id="servicos_publicos">
+<div metal:define-macro="fotos_e_videos" id="fotos_e_videos">
   <a href=".">
     <div id="superior">
-      <span>SERVI&Ccedil;OS <br> P&Uacute;BLICOS</span>
+      <span>fotos&amp;v&iacute;deos</span>
     </div>
     <div id="inferior">
-      <span>veja a lista completa</span>
+      <img src="++resource++gesac.theme.images/fotos_e_videos.png" />
     </div>
   </a>
 </div>
