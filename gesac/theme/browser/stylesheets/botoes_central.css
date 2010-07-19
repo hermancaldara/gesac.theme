@@ -19,7 +19,7 @@ margin-bottom:10px;
 }
 
 #menu-central a {
-background-image:url(++resource++gesac.theme.images/botoes.gif);
+background-image:url(++resource++gesac.theme.images/botoes.png);
 background-position: -92px 0px;
 background-repeat:no-repeat;
 float:left;
@@ -29,7 +29,7 @@ width:100px;
 }
 
 #menu-central a:hover{
-background-image:url(++resource++gesac.theme.images/botoes.gif);
+background-image:url(++resource++gesac.theme.images/botoes.png);
 background-position: 10px 0px;
 background-repeat:no-repeat;
 float:left;
