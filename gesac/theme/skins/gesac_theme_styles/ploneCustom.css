@@ -209,6 +209,7 @@
 
 #servicos_publicos {
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 #servicos_publicos a {
@@ -318,10 +319,6 @@
     font-size: 1.5em;
 }
 
-/*#pontos_gesac #inferior img {*/
-/*    padding-bottom: 5px;*/
-/*}*/
-
 /* fotos_e_videos.pt */
 
 #fotos_e_videos {
@@ -341,5 +338,32 @@
     color: #4979c3;
     font-size: 2em;
     font-weight: bold;
+}
+
+/* portlet-gesac */
+
+#portlet-gesac {
+    border-bottom: none;
+}
+
+#portlet-gesac .portletHeader {
+    border: none;
+    background-color: #fff;
+    padding: 0 0.2em;
+}
+
+#portlet-gesac .portletHeader .tile {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #4979C3;
+}
+
+#portlet-gesac .portletItem {
+    border-left: none;
+    border-right: none;
+}
+
+#portlet-gesac .portletItem .vaporized-tag a {
+    color: #696969;
 }
 
