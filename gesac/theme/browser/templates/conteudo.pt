@@ -11,16 +11,28 @@
       </div>
       <tal:comment replace="nothing"> ABAS DE NOTICIAS E ENCONTROS E OFICINAS </tal:comment>
       <div>  
-         <table class="estilo">
+         <table class="estilo" CELLPADDING=0 CELLSPACING=0>
             <tr>
-               <td class="linhac"></td>          
+               <td class="linhac"></td>  
+<!--
+               <td class="top_left"/>    
+-->
                <td class="abaativa" id="aba_noticias" onClick="trataCliqueAba(this.id);" onMouseOver="trataMouseAba(this);">
                   Notícias                    
-               </td>     
-               <td class="linhap"></td>          
+               </td>
+<!--
+               <td class="top_rigth"/> 
+-->
+               <td class="linhap"></td> 
+<!--  
+               <td class="top_left"/>  
+-->     
                <td class="abainativa" id="aba_encontros_oficinas" onClick="trataCliqueAba(this.id);" onMouseOver="trataMouseAba(this);" >
                   Encontros e Oficinas                      
-               </td>   
+               </td>  
+<!-- 
+               <td class="top_rigth"/> 
+-->
 	       <td class="linhag"></td>    
             </tr>
          </table>
@@ -38,6 +50,11 @@
 			 xmlns:i18n="http://xml.zope.org/namespaces/i18n"
 			 i18n:domain="plone">
                         <table tal:define="obj view/published_news_items">
+                           <dd class="baseFooter rss" tal:define="portal_url context/@@plone_portal_state/portal_url">
+                              <a href="" tal:attributes="href string:${portal_url}/news/aggregator/RSS">
+                                 <img src="++resource++gesac.theme.images/rss.png">
+                              </a>
+                           </dd>
 			   <tr tal:repeat="linha python:range(2)">
 			      <tal:newsitems tal:define="toLocalizedTime nocall:context/@@plone/toLocalizedTime;
 				                        plone_view context/@@plone;
@@ -53,11 +70,11 @@
                                                         id objeto/getId;
                                                         portal_url context/@@plone_portal_state/portal_url;
                                                         novaurl python:url.split(portal_url)[1];
-                                                        marcador python:novaurl.split('/')[1]"
-                                             tal:attributes="teste marcador">
+                                                        marcador python:novaurl.split('/')[1];">
                                              <img tal:attributes="src string:++resource++gesac.theme.images/${marcador}.png"/>
                                              <span tal:attributes="class marcador" tal:content="marcador"/>
                                              &nbsp;&nbsp; 
+                                             <br>
                                              <span class="data" tal:content="python:toLocalizedTime(objeto.Date)"/>
                                           </p>
                                           <a href=""
@@ -84,6 +101,7 @@
                                              <img tal:attributes="src string:++resource++gesac.theme.images/${marcador}.png"/>
                                              <span tal:attributes="class marcador" tal:content="marcador"/>                  
                                              &nbsp;&nbsp; 
+                                             <br>
                                              <span class="data" tal:content="python:toLocalizedTime(objeto.Date)"/>
                                           </p>        
                                           <a href=""
@@ -138,6 +156,11 @@
 			 xmlns:i18n="http://xml.zope.org/namespaces/i18n"
 			 i18n:domain="plone">
                         <table tal:define="obj results">
+                           <dd class="baseFooter rss" tal:define="portal_url context/@@plone_portal_state/portal_url">
+                              <a href="" tal:attributes="href string:${portal_url}/events/aggregator/RSS">
+                                 <img src="++resource++gesac.theme.images/rss.png">
+                              </a>
+                           </dd>
 			   <tr tal:repeat="linha python:range(2)">
 			      <tal:newsitems tal:define="toLocalizedTime nocall:context/@@plone/toLocalizedTime;
 				                        plone_view context/@@plone;
@@ -158,6 +181,7 @@
                                              <img tal:attributes="src string:++resource++gesac.theme.images/${marcador}.png"/>
                                              <span tal:attributes="class marcador" tal:content="marcador"/>
                                              &nbsp;&nbsp; 
+                                             <br>
                                              <span class="data" tal:content="python:toLocalizedTime(objeto.start)"/>
                                           </p>
                                           <a href=""
@@ -184,6 +208,7 @@
                                              <img tal:attributes="src string:++resource++gesac.theme.images/${marcador}.png"/>
                                              <span tal:attributes="class marcador" tal:content="marcador"/>                  
                                              &nbsp;&nbsp; 
+                                             <br>
                                              <span class="data" tal:content="python:toLocalizedTime(objeto.start)"/>
                                           </p>        
                                           <a href=""

@@ -20,7 +20,7 @@
     font-weight:bold;
     text-decoration:none;
     text-transform:uppercase;
-    color: #000000;
+    color: #333333;
 }
 
 .base dd a.tile:visited {
@@ -29,7 +29,7 @@
     font-weight:bold;
     text-decoration:none;
     text-transform:uppercase;
-    color: #000000;
+    color: #333333;
 }
 
 .base table {
@@ -50,7 +50,7 @@
 
 /* XXX: The two below rules should really be in the rule above, but that makes the items grow/shrink on :hover (navtree) - need to investigate how to make it not do that. ~limi, Dec 2005 */
 .beseItem a{
-    color: #000000;
+    color: #333333;
 }
 .baseFooter a {
     border-bottom: none;
@@ -58,7 +58,7 @@
 }
 
 .baseItem a:visited{
-    color: #000000;
+    color: #333333;
 }
 .baseFooter a:visited {
     color: #1E90FF;
@@ -92,35 +92,40 @@
     margin: 0 0 0 1em;
 }
 .baseItemDetails {   
-/*    background-image: url("marcador.gif");
-    background-repeat: no-repeat;*/ 
     text-align: left;
     display: block;
     color: &dtml-fontColor;;
     margin-top:7px;
-    font-weight: bold;
     text-transform: uppercase;
-/*    text-indent: 2.4em;    */
 }
 
 .pontos-gesac{
-    font-size: 1.3em;
+    font-size: 12px;
     color: #008B00;
+    font-weight: bold;
 }
 
 .pids{
-    font-size: 1.3em;
-    color: #4979C3;
+    font-size: 12px;
+    color: #186B88;
+    font-weight: bold;
 }
 
 .projeto{
-    font-size: 1.3em;
+    font-size: 12px;
     color: #057CC1;
+    font-weight: bold;
 }
 
 .data{
     font-size: 0.9em;
 }
+
+.rss img{
+    width: 21px;
+    height: 21px;
+}
+
 .baseFooter {
     background-color: white;
     margin: 0;

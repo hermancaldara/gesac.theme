@@ -20,6 +20,8 @@
     -moz-border-radius-topleft: 1.4em;
     padding: 10px;
     font: "MyriadPro-Bold";
+/*    border-top: 1px solid;
+    border-color: #828282;*/
     
     
 }
@@ -46,6 +48,9 @@
     -moz-border-radius-topleft: 1.4em;
     padding: 10px;
     font: "MyriadPro-Bold";
+/*    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #828282;*/
 }
 
 .estilo{
@@ -112,3 +117,17 @@
     -moz-border-radius-bottomleft: 1.4em;
     
 }
+
+/*.top_left{
+   background-image: url(++resource++gesac.theme.images/top_left.png);
+   width: 1%;
+   background-repeat: no-repeat;
+   background-position: 3px -1px;
+   
+}
+.top_rigth{
+   background-image: url(++resource++gesac.theme.images/top_right.png);
+   width: 1%;
+   background-repeat: no-repeat;
+   
+}*/
