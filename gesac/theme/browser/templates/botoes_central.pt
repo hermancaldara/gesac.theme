@@ -9,7 +9,7 @@
   </div>
   <div class='conteudo'>
     <p id='conheca-seu-pid-text' >CONHEÇA SEU PROMOTOR DE INCLUSÃO DIGITAL</p>
-    <a href=#><img id='conheca-seu-pid' src='++resource++gesac.theme.images/conheca-seu-pid.gif'/></a>
+    <a href="./conheca-seu-promotor-de-inclusao-digital"><img id='conheca-seu-pid' src='++resource++gesac.theme.images/conheca-seu-pid.gif'/></a>
   </div>
   <div class='conteudo'>
     <p id='biblioteca-digital-text' >BIBLIOTECA DIGITAL</p>
