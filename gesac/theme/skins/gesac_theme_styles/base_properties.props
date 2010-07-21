@@ -2,7 +2,7 @@ title:string=GESAC Theme's color, font, logo and border defaults
 
 plone_skin:string=GESAC Theme
 
-logoName:string=logo.jpg
+logoName:string=logo.png
 
 fontFamily:string="Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif
 fontBaseSize:string=69%
@@ -33,7 +33,7 @@ inputFontColor:string=Black
 
 textTransform:string=lowercase
 
-evenRowBackgroundColor:string=#eef3f5 
+evenRowBackgroundColor:string=#eef3f5
 oddRowBackgroundColor:string=transparent
 
 notifyBorderColor:string=#ffa500
@@ -45,3 +45,4 @@ helpBackgroundColor:string=#ffffe1
 portalMinWidth:string=70em
 columnOneWidth:string=16em
 columnTwoWidth:string=16em
+
