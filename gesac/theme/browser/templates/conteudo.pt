@@ -38,9 +38,10 @@
          </table>
       </div>
       <div class="bloco_noticias" id="noticias">
-         <table class="estrutura">
+         <table class="estrutura" CELLPADDING=0 CELLSPACING=0>
             <tr>
-               <td>
+<!--               <td colspan="3">
+-->               <td>
                   <div tal:define="view context/@@news_view;
 	                           results python:view.published_news_items()[:9];
 				   news_link view/all_news_link">
@@ -70,7 +71,7 @@
                                                         id objeto/getId;
                                                         portal_url context/@@plone_portal_state/portal_url;
                                                         novaurl python:url.split(portal_url)[1];
-                                                        marcador python:novaurl.split('/')[1];">
+                                                        marcador python:novaurl.split('/')[-2]">                                                        
                                              <img tal:attributes="src string:++resource++gesac.theme.images/${marcador}.png"/>
                                              <span tal:attributes="class marcador" tal:content="marcador"/>
                                              &nbsp;&nbsp; 
@@ -97,7 +98,7 @@
                                                         id objeto/getId;
                                                         portal_url context/@@plone_portal_state/portal_url;
                                                         novaurl python:url.split(portal_url)[1];
-                                                        marcador python:novaurl.split('/')[1]">
+                                                        marcador python:novaurl.split('/')[-2]">                                                      
                                              <img tal:attributes="src string:++resource++gesac.theme.images/${marcador}.png"/>
                                              <span tal:attributes="class marcador" tal:content="marcador"/>                  
                                              &nbsp;&nbsp; 
@@ -141,12 +142,19 @@
                   </div>
                </td>
             </tr>
+<!--            <tr>
+               <td class="bottom_left"></td>
+               <td class="bottom_espaco"></td>
+               <td class="bottom_right"></td>
+            </tr>
+-->
          </table>                   
       </div>
       <div class="bloco_encontros_oficinas" id="encontros_oficinas">
-         <table class="estrutura">
+         <table class="estrutura" CELLPADDING=0 CELLSPACING=0>
             <tr>
-               <td>
+<!--               <td colspan="3">
+-->               <td>
                   <div tal:define="view context/@@events_view;
 	                           results python:view.published_events()[:9];
 				   events_link view/all_events_link">
@@ -176,7 +184,7 @@
                                                         id objeto/getId;
                                                         portal_url context/@@plone_portal_state/portal_url;
                                                         novaurl python:url.split(portal_url)[1];
-                                                        marcador python:novaurl.split('/')[1]"
+                                                        marcador python:novaurl.split('/')[-2]"                                                
                                              tal:attributes="teste marcador">
                                              <img tal:attributes="src string:++resource++gesac.theme.images/${marcador}.png"/>
                                              <span tal:attributes="class marcador" tal:content="marcador"/>
@@ -204,7 +212,7 @@
                                                         id objeto/getId;
                                                         portal_url context/@@plone_portal_state/portal_url;
                                                         novaurl python:url.split(portal_url)[1];
-                                                        marcador python:novaurl.split('/')[1]">
+                                                        marcador python:novaurl.split('/')[-2]">                                                         
                                              <img tal:attributes="src string:++resource++gesac.theme.images/${marcador}.png"/>
                                              <span tal:attributes="class marcador" tal:content="marcador"/>                  
                                              &nbsp;&nbsp; 
@@ -242,6 +250,13 @@
                   </div>
                </td>
             </tr>
+<!--            <tr>
+               <td class="bottom_left"></td>
+               <td class="bottom_espaco"></td>
+               <td class="bottom_right"></td>
+
+            </tr>
+-->
          </table>                   
       </div>
     
