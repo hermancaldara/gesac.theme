@@ -7,9 +7,15 @@
          tal:replace="structure view/logo_tag" /></a>
 <div id="favoritos">
   <ul>
-    <a href="."><li><img src="++resource++gesac.theme.images/home.png"></li></a>
-    <li><img src="++resource++gesac.theme.images/interrogacao.png"></li>
-    <li><img src="++resource++gesac.theme.images/rss_barra.png"></li>
+    <a href=".">
+      <li><img src="++resource++gesac.theme.images/home.png"></li>
+    </a>
+    <a href="./perguntas-e-respostas">
+      <li><img src="++resource++gesac.theme.images/interrogacao.png"></li>
+    </a>
+    <a href="./news/aggregator/RSS">
+      <li><img src="++resource++gesac.theme.images/rss_barra.png"></li>
+    </a>
   </ul>
 </div>
 

@@ -157,51 +157,51 @@
 
 /* - member.css - */
 
-.state-private {
+.portletNavigationTree .state-private {
     color: #4979c3 !important;
 }
 
-.state-private:hover {
+.portletNavigationTree .state-private:hover {
     color: #fff !important;
 }
 
-.state-visible {
+.portletNavigationTree .state-visible {
     color: #4979c3 !important;
 }
 
-.state-visible:hover {
+.portletNavigationTree .state-visible:hover {
     color: #fff !important;
 }
 
-.state-published {
+.portletNavigationTree .state-published {
     color: #4979c3 !important;
 }
 
-.state-published:hover {
+.portletNavigationTree .state-published:hover {
     color: #fff !important;
 }
 
-.state-pending {
+.portletNavigationTree .state-pending {
     color: #4979c3 !important;
 }
 
-.state-pending:hover {
+.portletNavigationTree .state-pending:hover {
     color: #fff !important;
 }
 
-.state-expired {
+.portletNavigationTree .state-expired {
     color: #4979c3 !important;
 }
 
-.state-expired:hover {
+.portletNavigationTree .state-expired:hover {
     color: #fff !important;
 }
 
-.syndicated {
+.portletNavigationTree .syndicated {
     color: #4979c3 !important;
 }
 
-.syndicated:hover {
+.portletNavigationTree .syndicated:hover {
     color: #fff !important;
 }
 
