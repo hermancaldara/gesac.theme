@@ -342,28 +342,28 @@
 
 /* portlet-gesac */
 
-#portlet-gesac {
+#portlet-formacaogesac {
     border-bottom: none;
 }
 
-#portlet-gesac .portletHeader {
+#portlet-formacaogesac .portletHeader {
     border: none;
     background-color: #fff;
     padding: 0 0.2em;
 }
 
-#portlet-gesac .portletHeader .tile {
+#portlet-formacaogesac .portletHeader .tile {
     font-size: 1.4em;
     font-weight: bold;
     color: #4979C3;
 }
 
-#portlet-gesac .portletItem {
+#portlet-formacaogesac .portletItem {
     border-left: none;
     border-right: none;
 }
 
-#portlet-gesac .portletItem .vaporized-tag a {
+#portlet-formacaogesac .portletItem .vaporized-tag a {
     color: #696969;
 }
 

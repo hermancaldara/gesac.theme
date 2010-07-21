@@ -7,7 +7,7 @@
          tal:replace="structure view/logo_tag" /></a>
 <div id="favoritos">
   <ul>
-    <a href=".">
+    <a href="./">
       <li><img src="++resource++gesac.theme.images/home.png"></li>
     </a>
     <a href="./perguntas-e-respostas">
