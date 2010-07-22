@@ -35,10 +35,10 @@
 
 .base table {
      border-style: solid;
-     border-top-width: 0em;
-     border-bottom-width: 0em;
-     border-left: 0em;
-     border-right: 0em;
+     border-top-width: 0px;
+     border-bottom-width: 0px;
+     border-left: 0px;
+     border-right: 0px;
      border-color: #8CACBB;
      background-color: #E6E6FA transparent;
      width: 100%;

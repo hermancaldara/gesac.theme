@@ -10,24 +10,17 @@
          &nbsp;
       </div>
       <tal:comment replace="nothing"> ABAS DE NOTICIAS E ENCONTROS E OFICINAS </tal:comment>
-      <div>
-         <table class="estilo" CELLPADDING=0 CELLSPACING=0>
-            <tr>
-               <td class="linhac"></td>
-               <td class="abaativa" id="aba_noticias" onClick="trataCliqueAba(this.id);" onMouseOver="trataMouseAba(this);">
-                  <div class="topleft"></div>
-                  <div class="topright"></div>
-                  Notícias
-               </td>
-               <td class="linhap"></td>
-               <td class="abainativa" id="aba_encontros_oficinas" onClick="trataCliqueAba(this.id);" onMouseOver="trataMouseAba(this);" >
-                 <div class="topleft"></div>
-                 <div class="topright"></div>
-                  Encontros e Oficinas
-               </td>
-	       <td class="linhag"></td>
-            </tr>
-         </table>
+      <div class="abas">
+         <div class="abaativa" id="aba_noticias" onClick="trataCliqueAba(this.id);" onMouseOver="trataMouseAba(this);">
+           <div class="topleft"></div>
+           <div class="topright"></div>
+           <span>Notícias</span>
+         </div>
+         <div class="abainativa" id="aba_encontros_oficinas" onClick="trataCliqueAba(this.id);" onMouseOver="trataMouseAba(this);" >
+           <div class="topleft"></div>
+           <div class="topright"></div>
+            <span>Encontros e Oficinas</span>
+          </div>
       </div>
 
       <div class="bloco_noticias"

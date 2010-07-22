@@ -15,7 +15,7 @@
     border-style: solid;
     border-width: 1px;
     border-color: #B8B8B8;
-    border-bottom: 0px;
+    border-bottom: 1px solid white;
     font: "MyriadPro-Bold";
 }
 
@@ -23,7 +23,7 @@
   background: url(++resource++gesac.theme.images/top_left.png) no-repeat;
   height:11px;
   width:11px;
-  margin-top:-15px;
+  margin-top:-13px;
   margin-left:-14px;
 }
 
@@ -33,7 +33,7 @@
   float:right;
   width:9px;
   height:9px;
-  margin-top:-15px;
+  margin-top:-14px;
   margin-right: -13px;
 }
 
@@ -79,51 +79,32 @@
   margin-right: -16px;
 }
 
-.estilo{
-    border: 0;
-    padding: 0;
-    border-spacing: 1;
-}
-.linhac{
-    width: 3%;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #B8B8B8;
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
+.abas{
+    width: 608px;
+    height:41px;
 }
 
-.linhap{
-    width: 2%;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #B8B8B8;
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
+#aba_noticias{
+  width:110px;
+  float: left;
+  margin-left: 12px;
 }
 
-.linhag{
-    width: 44%;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #B8B8B8;
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
-}
+#aba_encontros_oficinas{
+  width:215px;
+  float: left;
+  margin-left: 12px;
+} 
+
 
 .bloco_noticias{
     display: block;
     border: 1px solid #B8B8B8;
-    border-top: none;
 }
 
 .bloco_encontros_oficinas{
     display: none;
     border: 1px solid #B8B8B8;
-    border-top: none;
 }
 
 .estrutura{
