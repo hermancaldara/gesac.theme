@@ -3,12 +3,13 @@
 }
 
 /* Main portlet elements */
+
 .base {
     margin: 1px 0 1em 0;
     border-bottom: &dtml-borderWidth; &dtml-borderStyle; &dtml-globalBorderColor;;
     background-color: &dtml-backgroundColor;;
     border: 0;
-    
+
 }
 .base dd a {
     text-decoration: none;
@@ -91,7 +92,7 @@
 .baseItem ol {
     margin: 0 0 0 1em;
 }
-.baseItemDetails {   
+.baseItemDetails {
     text-align: left;
     display: block;
     color: &dtml-fontColor;;
@@ -130,19 +131,54 @@
     background-color: white;
     margin: 0;
     padding: 0.25em 1em;
-    border: 0;   
-    text-align: right;   
+    border: 0;
+    text-align: right;
     color: #1E90FF;
-    font-weight: bold; 
+    font-weight: bold;
     font: "MyriadPro-Bold"
 }
 
 
 /* Elements that enable layout with rounded corners */
-.baseTopLeft {}
-.baseTopRight {}
-.baseBottomLeft {}
-.baseBottomRight {}
+
+.baseTop{}
+
+.topleft{
+  float:left;
+  height:11px;
+  width:11px;
+  float:left;
+  margin-left: -1px;
+  margin-top: -2px;
+}
+
+.topright{
+  float:right;
+  width:9px;
+  height:9px;
+  margin-right: -1px;
+  margin-top: -2px;
+}
+
+.baseFooterBottom{}
+
+.baseBottomLeft{
+  height:14px;
+  width:14px;
+  float: left;
+  margin-left:-3px;
+  margin-top:1px;
+}
+
+.baseBottomRight{
+  height:14px;
+  width:13px;
+  float: right;
+  margin-right:-2px;
+  margin-top: 2px;
+}
+
+
 
 
 .managebaseLink {
@@ -199,3 +235,4 @@ div.managedbase {
 #portal-column-content{
     width: 66%;
 }
+

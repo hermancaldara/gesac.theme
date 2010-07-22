@@ -8,23 +8,35 @@
     color: #057CC1;
     /*background-image: url(../imagens/telas/abaAtiva.png);*/
     background-color: #FFFFFF;
-    width: 10%;
-    height: 36px;
-    text-align: center;    
-    vertical-align: middle;    
+    max-height: 35px;
+    padding:12px;
+    text-align: center;
+    vertical-align: middle;
     border-style: solid;
     border-width: 1px;
     border-color: #B8B8B8;
     border-bottom: 0px;
-    -moz-border-radius-topright: 1.4em; 
-    -moz-border-radius-topleft: 1.4em;
-    padding: 10px;
     font: "MyriadPro-Bold";
-/*    border-top: 1px solid;
-    border-color: #828282;*/
-    
-    
 }
+
+.abaativa .topleft {
+  background: url(++resource++gesac.theme.images/top_left.png) no-repeat;
+  height:11px;
+  width:11px;
+  margin-top:-15px;
+  margin-left:-14px;
+}
+
+
+.abaativa .topright {
+  background: url(++resource++gesac.theme.images/top_right.png) no-repeat;
+  float:right;
+  width:9px;
+  height:9px;
+  margin-top:-15px;
+  margin-right: -13px;
+}
+
 
 .abainativa {
     font-size: 12px;
@@ -35,32 +47,45 @@
     text-transform: uppercase;
     color: #828282;
     /*background-image: url(../imagens/telas/abaInativa.png);*/
-    background-color: #DCDCDC;
-    width: 10%;
-    height: 36px;
-    text-align: center;    
+    /*background-color: #DCDCDC;*/
+    background-color: #e8e8e8;
+    max-height: 35px;
+    padding:12px;
+    text-align: center;
     vertical-align: middle;
     border-style: solid;
     border-width: 1px;
     border-color: #B8B8B8;
     border-width: 1px;
-    -moz-border-radius-topright: 1.4em; 
-    -moz-border-radius-topleft: 1.4em;
-    padding: 10px;
     font: "MyriadPro-Bold";
-/*    border-top: 1px solid;
-    border-bottom: 1px solid;
-    border-color: #828282;*/
+}
+
+.abainativa .topleft {
+  background: url(++resource++gesac.theme.images/t01.gif) no-repeat;
+  height:11px;
+  width:11px;
+  margin-top:-14px;
+  margin-left:-13px;
+
+}
+
+
+.abainativa .topright {
+  background: url(++resource++gesac.theme.images/t03.gif) no-repeat;
+  float:right;
+  width:9px;
+  height:9px;
+  margin-top:-14px;
+  margin-right: -16px;
 }
 
 .estilo{
-    width: 95%;
     border: 0;
-    padding: 0; 
+    padding: 0;
     border-spacing: 1;
 }
 .linhac{
-    width: 0.7%;
+    width: 3%;
     border-style: solid;
     border-width: 1px;
     border-color: #B8B8B8;
@@ -80,7 +105,7 @@
 }
 
 .linhag{
-    width: 15%;
+    width: 44%;
     border-style: solid;
     border-width: 1px;
     border-color: #B8B8B8;
@@ -90,43 +115,24 @@
 }
 
 .bloco_noticias{
-    display: block;    
+    display: block;
+    border: 1px solid #B8B8B8;
+    border-top: none;
 }
-
-/*.bloco_noticias table{
-    border: 0px;
-    width: 95%;
-}*/
 
 .bloco_encontros_oficinas{
     display: none;
+    border: 1px solid #B8B8B8;
+    border-top: none;
 }
 
-/*.bloco_encontros_oficinas table{
-    border: 0;
-    width: 95%;
-}*/
-
 .estrutura{
-    width: 95%;
+    width: 100%;
     border-width: 1px;
     border-style: solid;
     border-color: #B8B8B8;
     border-top: 0px;
     border-bottom: 1px solid #B8B8B8;
-   
+
 }
 
-.bottom_left img {
-    margin-bottom:-3px;
-    margin-left:-3px;
-}
-
-.bottom_right img {
-    margin-bottom:-15px;
-    margin-right:-2px;
-}
-
-.bottom_right {
-   float:right;
-}
