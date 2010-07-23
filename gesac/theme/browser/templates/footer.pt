@@ -1,5 +1,8 @@
 <div id="footer">
-  <p>Portal Gesac 2010 - Inclusão Digital</p>
+  <p>Projeto Formação Gesac - Inclusão Digital</p>
+  <a id="cc" href="http://creativecommons.org/licenses/by-nc-nd/3.0/br/">
+    <img src="++resource++gesac.theme.images/cc.png" />
+  </a>
   <ul>
     <li><img src="++resource++gesac.theme.images/facebook.png"></li>
     <a href="http://twitter.com/FormacaoGesac">
