@@ -340,30 +340,30 @@
     font-weight: bold;
 }
 
-/* portlet-gesac */
+/* portlet-vaporisation */
 
-#portlet-formacaogesac {
+#portlet-vaporisation {
     border-bottom: none;
 }
 
-#portlet-formacaogesac .portletHeader {
+#portlet-vaporisation .portletHeader {
     border: none;
     background-color: #fff;
     padding: 0 0.2em;
 }
 
-#portlet-formacaogesac .portletHeader .tile {
+#portlet-vaporisation .portletHeader .tile {
     font-size: 1.4em;
     font-weight: bold;
     color: #4979C3;
 }
 
-#portlet-formacaogesac .portletItem {
+#portlet-vaporisation .portletItem {
     border-left: none;
     border-right: none;
 }
 
-#portlet-formacaogesac .portletItem .vaporized-tag a {
+#portlet-vaporisation .portletItem .vaporized-tag a {
     color: #696969;
 }
 
