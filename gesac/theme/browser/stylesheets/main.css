@@ -106,7 +106,12 @@ body {
     background-color: #017fbc;
 }
 
-#footer p {
+#footer #left {
+    width: 360px;
+    float: left
+}
+
+#footer #left p {
     float: left;
     font-size: 1.3em;
     font-weight: bold;
@@ -115,7 +120,18 @@ body {
     line-height: 40px;
 }
 
-#footer ul {
+#footer #creativecommons {
+    width: 470px;
+    float: left;
+    line-height: 40px;
+    text-align: center;
+}
+
+#footer #right{
+    float: right;
+}
+
+#footer #right ul {
     float: right;
     width: 150px;
     margin: 0;
@@ -123,10 +139,14 @@ body {
     line-height: 40px;
 }
 
-#footer ul li {
+#footer #right ul li {
 	display: inline;
 	float: left;
     padding-right: 15px;
+}
+
+#footer #right ul li img {
+    border: none;
 }
 
 #portal-searchbox .LSBox {
@@ -177,10 +197,5 @@ body {
 #favoritos ul li {
     display: inline;
     padding-bottom: 5px;
-}
-
-#cc {
-    line-height: 40px;
-    margin-left: 160px;
 }
 

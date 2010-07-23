@@ -1,14 +1,24 @@
 <div id="footer">
-  <p>Projeto Formação Gesac - Inclusão Digital</p>
-  <a id="cc" href="http://creativecommons.org/licenses/by-nc-nd/3.0/br/">
-    <img src="++resource++gesac.theme.images/cc.png" />
-  </a>
-  <ul>
-    <li><img src="++resource++gesac.theme.images/facebook.png"></li>
-    <a href="http://twitter.com/FormacaoGesac">
-      <li><img src="++resource++gesac.theme.images/twitter.png"></li>
+
+  <div id="left">
+    <p>Projeto Formação Gesac - Inclusão Digital</p>
+  </div>
+
+  <div id="creativecommons">
+    <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/br/">
+      <img src="++resource++gesac.theme.images/cc.png" />
     </a>
-    <li><img src="++resource++gesac.theme.images/orkut.png"></li>
-  </ul>
+  </div>
+
+  <div id="right">
+    <ul>
+      <li><img src="++resource++gesac.theme.images/facebook.png"></li>
+      <a href="http://twitter.com/FormacaoGesac">
+        <li><img src="++resource++gesac.theme.images/twitter.png"></li>
+      </a>
+      <li><img src="++resource++gesac.theme.images/orkut.png"></li>
+    </ul>
+  </div>
+
 </div>
 
