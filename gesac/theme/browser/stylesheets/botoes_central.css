@@ -10,11 +10,11 @@ position:relative;
 text-align:center;
 height:140px;
 width:100px;
-padding:0 20px 0;
+padding:0 21px 0;
 }
 
 #menu-central p {
-font-size: 10px;
+font-size: 0.8em;
 margin-bottom:10px;
 }
 
