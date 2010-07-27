@@ -236,3 +236,12 @@ div.managedbase {
     width: 66%;
 }
 
+.area_news {
+  vertical-align:top;
+  width:33%;
+}
+.area_events{
+  vertical-align:top;
+  width:33%;
+}
+

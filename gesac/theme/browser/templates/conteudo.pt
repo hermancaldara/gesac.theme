@@ -49,7 +49,7 @@
 							getIcon nocall:plone_view/getIcon"
 					     tal:repeat="objeto obj">
                                  <span tal:define="li repeat/linha/number; contador repeat/objeto/number;">
-                                    <td tal:condition="python:li == 1 and contador <= 3">
+                                    <td class="area_news" tal:condition="python:li == 1 and contador <= 3">
                                        <dd tal:define="oddrow repeat/objeto/odd;
                                                       item_icon python:getIcon(objeto)"
                                            tal:attributes="class python:oddrow and 'baseItem even' or 'baseItem odd'">
@@ -151,7 +151,7 @@
 							getIcon nocall:plone_view/getIcon"
 					     tal:repeat="objeto obj">
                                  <span tal:define="li repeat/linha/number; contador repeat/objeto/number;">
-                                    <td tal:condition="python:li == 1 and contador <= 3">
+                                    <td class="area_events" tal:condition="python:li == 1 and contador <= 3">
                                        <dd tal:define="oddrow repeat/objeto/odd;
                                                       item_icon python:getIcon(objeto)"
                                            tal:attributes="class python:oddrow and 'baseItem even' or 'baseItem odd'">
