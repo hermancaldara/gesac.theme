@@ -7,7 +7,7 @@
 <div metal:define-macro="pontos_gesac" id="pontos_gesac">
   <a href="./pontos-gesac">
     <div id="superior">
-      <span><img src="++resource++gesac.theme.images/mais.png" /> Pontos GESAC</span>
+      <span><img src="++resource++gesac.theme.images/mais.png" /> Pontos Atendidos</span>
     </div>
     <div id="inferior">
       <img src="++resource++gesac.theme.images/mapas_pontos_gesac.png" />
