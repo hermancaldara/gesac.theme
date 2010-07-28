@@ -73,7 +73,7 @@
                                                 Plone 2.1 announced!
                                              </span>
                                           </a>
-                                         <span tal:content="objeto/Description"/>
+                                         <p class="description_content" tal:content="objeto/Description"/>
                                        </dd>
                                     </td>
                                     <td tal:condition="python:li == 2 and contador >= 4 and contador <=6">
@@ -176,7 +176,7 @@
                                                 Plone 2.1 announced!
                                              </span>
                                           </a>
-                                         <span tal:content="objeto/Description"/>
+                                         <p class="description_content" tal:content="objeto/Description"/>
                                        </dd>
                                     </td>
                                     <td tal:condition="python:li == 2 and contador >= 4 and contador <=7">

@@ -232,6 +232,11 @@ div.managedbase {
     text-decoration: none;
 }
 
+.description_content{
+    font-size: 10px;
+
+} 
+
 #portal-column-content{
     width: 66%;
 }
