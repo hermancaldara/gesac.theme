@@ -10,12 +10,15 @@ position:relative;
 text-align:center;
 height:140px;
 width:100px;
-padding:0 21px 0;
+padding:0 25px 0;
 }
 
+#menu-central .texto {
+height: 50px;
+margin-bottom:10px;
+}
 #menu-central p {
 font-size: 10px;
-margin-bottom:10px;
 }
 
 #menu-central a {
@@ -28,7 +31,7 @@ position:relative;
 width:100px;
 }
 
-#menu-central a:hover{
+#menu-central a:hover {
 background-image:url(++resource++gesac.theme.images/botoes.png);
 background-position: 10px 0px;
 background-repeat:no-repeat;
@@ -43,13 +46,9 @@ border: none;
 }
 
 #sala-de-aula-text{
-padding-top: 10px;
-padding-bottom:5px;
 }
 
 #rede-social-text{
-padding-bottom:15px;
-padding-top:15px;
 }
 
 #conheca-seu-pid-text{
@@ -57,8 +56,6 @@ padding-top:15px;
 }
 
 #biblioteca-digital-text{
-padding-top: 10px;
-padding-bottom:5px;
 }
 
 

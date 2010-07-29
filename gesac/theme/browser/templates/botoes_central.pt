@@ -1,19 +1,26 @@
 <div id='menu-central'>
   <div class='conteudo'>
-    <p id='sala-de-aula-text' >SALA DE AULA VIRTUAL</p>
+    <div class='texto'>
+      <p id='sala-de-aula-text' >SALA DE AULA<br>VIRTUAL</p>
+    </div>
     <a href="./sala-de-aula-virtual"><img id='sala-de-aula' src='++resource++gesac.theme.images/sala-de-aula.png'/></a>
   </div>
   <div class='conteudo'>
-    <p id='rede-social-text' >REDE SOCIAL</p>
+    <div class='texto'>
+      <p id='rede-social-text' >REDE<br>SOCIAL</p>
+    </div>
     <a href="./rede-social"><img id='rede-social' src='++resource++gesac.theme.images/rede-social.png'/></a>
   </div>
   <div class='conteudo'>
-    <p id='conheca-seu-pid-text' >CONHEÇA SEU PROMOTOR DE INCLUSÃO DIGITAL</p>
+    <div class='texto'>
+      <p id='conheca-seu-pid-text' >CONHEÇA SEU<br>PROMOTOR DE<br>INCLUSÃO DIGITAL</p>
+    </div>
     <a href="./conheca-seu-promotor-de-inclusao-digital"><img id='conheca-seu-pid' src='++resource++gesac.theme.images/conheca-seu-pid.gif'/></a>
   </div>
   <div class='conteudo'>
-    <p id='biblioteca-digital-text' >BIBLIOTECA DIGITAL</p>
+    <div class='texto'>
+      <p id='biblioteca-digital-text' >BIBLIOTECA<br>DIGITAL</p>
+    </div>
     <a href="./biblioteca-digital"><img id='biblioteca-digital' src='++resource++gesac.theme.images/biblioteca-digital.png'/></a>
   </div>
  </div>
-
