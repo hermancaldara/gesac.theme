@@ -223,7 +223,7 @@
 }
 
 #servicos_publicos #superior span {
-    font-size: 1.7em;
+    font-size: 1.4em;
     font-weight: bold;
     color: gray;
 }
@@ -316,7 +316,7 @@
 #pontos_gesac #superior span {
     color: white;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 1.4em;
 }
 
 /* fotos_e_videos.pt */
@@ -336,7 +336,7 @@
 
 #fotos_e_videos #superior span {
     color: #4979c3;
-    font-size: 2em;
+    font-size: 1.4em;
     font-weight: bold;
 }
 
