@@ -10,15 +10,5 @@
     </a>
   </div>
 
-  <div id="right">
-    <ul>
-      <li><img src="++resource++gesac.theme.images/facebook.png"></li>
-      <a href="http://twitter.com/FormacaoGesac">
-        <li><img src="++resource++gesac.theme.images/twitter.png"></li>
-      </a>
-      <li><img src="++resource++gesac.theme.images/orkut.png"></li>
-    </ul>
-  </div>
-
 </div>
 

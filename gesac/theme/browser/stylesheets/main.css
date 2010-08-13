@@ -121,10 +121,10 @@ body {
 }
 
 #footer #creativecommons {
-    width: 470px;
-    float: left;
+    float: right;
     line-height: 40px;
     text-align: center;
+    margin-right: 20px;
 }
 
 #footer #right{
