@@ -1,56 +1,95 @@
 <?xml version="1.0"?>
-<!-- This file holds the setup configuration of the viewlet managers
-     for the "GESAC Theme" skin.
-     -->
-
 <object>
-
-  <!-- Viewlets keep the same ordering than the default skin ('Plone Default'
-       out of the box).
-       You can specify skinname="*" if you want changes apply for all skins.
-       Using "True"" for the 'make-default' parameter will make the 'skinname'
-       value set as default skinname. Means the name of the skin that would be
-       used in case the viewlets ordering was not specified for the currently
-       used skin.
-       The 'based-on' attribute lets you inherit the viewlets ordering from an
-       existing skin.
-       -->
-  <order manager="plone.portaltop" skinname="GESAC Theme"
-         based-on="Plone Default">
-    <viewlet name="epct.government" insert-before="*" />
-    
-    <!-- The definition of a viewlet accepts these parameters:
-         - name: quite self explanatory, the name of the viewlet.
-         - insert-before: name of the viewlet before which it must be added or
-           moved.
-         - insert-after: name of the viewlet after which it must be added
-           or moved.
-         - remove: supported but rarely needed, removes the viewlet from the
-           ordering list (doesn't mean that it hides the viewlet).
-         Note: insert-before and -after accept the value "*" which means
-         "all".
-         -->
-<!-- EXAMPLE (UNCOMMENT TO MAKE AVAILABLE):
-    <viewlet name="gesac.someviewlet"
-             insert-before="*" />
--->
-  </order>
-  
-  <order manager="plone.portalheader" skinname="GESAC Theme" based-on="Plone Default">
-    <viewlet name="plone.acessibilidade" insert-before="plone.searchbox" />
-  </order>
-  
-  
-  <hidden manager="plone.portalheader" skinname="GESAC Theme" based-on="Plone Default">
-    <viewlet name="plone.global_sections" />
-  </hidden>
-
-  <hidden manager="plone.portalfooter" skinname="GESAC Theme" based-on="Plone Default">
-<!-- EXAMPLE (UNCOMMENT TO MAKE AVAILABLE):
-    <viewlet name="plone.global_sections" />    
--->
-<!--    <viewlet name="plone.analytics" /> -->
-    <viewlet name="plone.colophon" />
-  </hidden>
-
+ <order manager="plone.portalfooter" skinname="Plone Default">
+  <viewlet name="plone.footer"/>
+  <viewlet name="plone.colophon"/>
+ </order>
+ <order manager="plone.portalheader" skinname="Plone Default">
+  <viewlet name="plone.skip_links"/>
+  <viewlet name="plone.site_actions"/>
+  <viewlet name="plone.searchbox"/>
+  <viewlet name="plone.logo"/>
+  <viewlet name="plone.global_sections"/>
+ </order>
+ <order manager="plone.portaltop" skinname="Plone Default">
+  <viewlet name="plone.header"/>
+  <viewlet name="plone.personal_bar"/>
+  <viewlet name="plone.app.i18n.locales.languageselector"/>
+  <viewlet name="plone.path_bar"/>
+ </order>
+ <order manager="plone.contentviews" skinname="Plone Default">
+  <viewlet name="plone.contentviews"/>
+  <viewlet name="plone.contentactions"/>
+ </order>
+ <order manager="plone.abovecontenttitle" skinname="nsi.dltheme">
+  <viewlet name="epct.belowcontenttitle.keywords"/>
+ </order>
+ <order manager="plone.belowcontentbody" skinname="nsi.dltheme">
+  <viewlet name="epct.belowcontent.keywords"/>
+ </order>
+ <order manager="plone.portalheader" skinname="nsi.dltheme">
+  <viewlet name="plone.skip_links"/>
+  <viewlet name="plone.logo"/>
+  <viewlet name="plone.site_actions"/>
+  <viewlet name="plone.personal_bar"/>
+  <viewlet name="plone.searchbox"/>
+  <viewlet name="nsi.dltheme.headerline"/>
+  <viewlet name="plone.global_sections"/>
+ </order>
+ <order manager="plone.portaltop" skinname="nsi.dltheme">
+  <viewlet name="epct.government"/>
+  <viewlet name="plone.header"/>
+  <viewlet name="plone.personal_bar"/>
+  <viewlet name="plone.app.i18n.locales.languageselector"/>
+  <viewlet name="plone.path_bar"/>
+ </order>
+ <order manager="plone.contentviews" skinname="nsi.dltheme">
+  <viewlet name="epct.path_bar"/>
+  <viewlet name="plone.contentviews"/>
+  <viewlet name="plone.contentactions"/>
+ </order>
+ <order manager="plone.portalheader" skinname="GESAC Theme">
+  <viewlet name="plone.skip_links"/>
+  <viewlet name="plone.site_actions"/>
+  <viewlet name="plone.acessibilidade"/>
+  <viewlet name="plone.searchbox"/>
+  <viewlet name="plone.logo"/>
+  <viewlet name="plone.global_sections"/>
+ </order>
+ <order manager="plone.portaltop" skinname="GESAC Theme">
+  <viewlet name="epct.government"/>
+  <viewlet name="plone.header"/>
+  <viewlet name="plone.personal_bar"/>
+  <viewlet name="plone.app.i18n.locales.languageselector"/>
+  <viewlet name="plone.path_bar"/>
+ </order>
+ <hidden manager="plone.belowcontentbody" skinname="Plone Default">
+  <viewlet name="plone.abovecontenttitle.documentactions"/>
+ </hidden>
+ <hidden manager="plone.portalfooter" skinname="nsi.dltheme">
+  <viewlet name="plone.colophon"/>
+ </hidden>
+ <hidden manager="plone.portalheader" skinname="nsi.dltheme">
+  <viewlet name="plone.global_sections"/>
+ </hidden>
+ <hidden manager="plone.portaltop" skinname="nsi.dltheme">
+  <viewlet name="plone.app.i18n.locales.languageselector"/>
+  <viewlet name="plone.path_bar"/>
+  <viewlet name="plone.personal_bar"/>
+ </hidden>
+ <hidden manager="plone.belowcontenttitle" skinname="nsi.dltheme">
+  <viewlet name="plone.belowcontenttitle.keywords"/>
+ </hidden>
+ <hidden manager="plone.belowcontentbody" skinname="GESAC Theme">
+  <viewlet name="plone.abovecontenttitle.documentactions"/>
+ </hidden>
+ <hidden manager="plone.portalfooter" skinname="GESAC Theme">
+  <viewlet name="plone.colophon"/>
+ </hidden>
+ <hidden manager="plone.portalheader" skinname="GESAC Theme">
+  <viewlet name="plone.global_sections"/>
+ </hidden>
+ <hidden manager="plone.portaltop" skinname="GESAC Theme">
+  <viewlet name="plone.personal_bar"/>
+ </hidden>
 </object>

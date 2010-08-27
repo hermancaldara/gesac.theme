@@ -131,6 +131,8 @@
     background-color: #fff;
     border-top: none;
     border-bottom: none;
+    clear: right;
+    margin-top: 25px;
 }
 
 #portal-breadcrumbs {
